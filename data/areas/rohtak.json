@@ -1,0 +1,156 @@
+{
+  "id": "area-rohtak",
+  "name": "Rohtak",
+  "slug": "rohtak",
+  "city": "Rohtak",
+  "district": "Rohtak",
+  "state": "Haryana",
+  "description": "Rohtak is a rapidly developing district headquarters in Haryana, located 70 km from Delhi via NH-9. Known for its prestigious educational institutions (IIM Rohtak, PGIMS), sports culture, and growing real estate market. The city offers excellent investment opportunities in residential, commercial, and industrial sectors with strong infrastructure development.",
+  "imageUrl": "/images/areas/rohtak.svg",
+  "propertyCount": 20,
+  "priceRangeMin": 4100000,
+  "priceRangeMax": 70000000,
+  "featured": true,
+  "highlights": [
+    "Home to IIM Rohtak and PGIMS Hospital",
+    "70 km from Delhi via NH-9",
+    "KMP Expressway connectivity to entire NCR",
+    "13% YoY market growth in 2024-25",
+    "IMT Rohtak for industrial investments",
+    "Residential plots from ₹41 lakhs",
+    "Government focus on urban expansion",
+    "Strong rental yield (6-8%)",
+    "Growing IT and education sector",
+    "Sports and cultural hub"
+  ],
+  "connectivity": {
+    "metro": "Proposed Metro extension to Rohtak",
+    "highway": "NH-9, KMP Expressway, Rohtak-Panipat Road",
+    "airport": "IGI Airport (80 km)",
+    "railway": "Rohtak Junction Railway Station (2 km) - Delhi, Chandigarh, Jaipur routes",
+    "busStand": "Rohtak Bus Stand (1 km)"
+  },
+  "amenities": [
+    "PGIMS (Post Graduate Institute of Medical Sciences)",
+    "IIM Rohtak",
+    "Multiple Universities and Colleges",
+    "District Hospital",
+    "Shopping Malls and Markets",
+    "Sports Stadiums",
+    "Government Offices",
+    "Banks and Financial Services",
+    "Parks and Recreation Centers",
+    "24/7 Power Supply",
+    "Municipal Water Supply"
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Delhi",
+      "distance": "70 km",
+      "type": "Major City"
+    },
+    {
+      "name": "Gurgaon",
+      "distance": "60 km (via KMP)",
+      "type": "City"
+    },
+    {
+      "name": "Sonipat",
+      "distance": "50 km",
+      "type": "City"
+    },
+    {
+      "name": "Bahadurgarh",
+      "distance": "35 km",
+      "type": "City"
+    }
+  ],
+  "propertyTypes": [
+    {
+      "type": "Residential Plots",
+      "availableCount": 10,
+      "priceRange": "₹41 Lakhs - ₹3 Cr",
+      "sizes": "97 sq. yards - 500 sq. yards"
+    },
+    {
+      "type": "Apartments (3BHK-5BHK)",
+      "availableCount": 5,
+      "priceRange": "₹60 Lakhs - ₹2.5 Cr",
+      "sizes": "1200 sq. ft - 3000 sq. ft"
+    },
+    {
+      "type": "Industrial Plots (IMT Rohtak)",
+      "availableCount": 3,
+      "priceRange": "₹50 Lakhs - ₹7 Cr",
+      "sizes": "100 sq. yards - 14 acres"
+    },
+    {
+      "type": "Commercial Properties",
+      "availableCount": 2,
+      "priceRange": "₹80 Lakhs - ₹5 Cr",
+      "sizes": "100 sq. yards - 1000 sq. yards"
+    }
+  ],
+  "demographics": {
+    "population": "375,000+",
+    "populationGrowth": "High (13% YoY in 2024-25)",
+    "literacyRate": "84%",
+    "employmentOpportunities": "Growing rapidly",
+    "infrastructure": "Excellent and improving"
+  },
+  "investmentPotential": {
+    "appreciationRate": "15-20% annually",
+    "rentalYield": "6-8%",
+    "riskLevel": "Low to Medium",
+    "futureProspects": "Excellent",
+    "marketSize2024": "₹12.8 Billion",
+    "marketSize2025": "₹14.41 Billion (13% growth)"
+  },
+  "keyGrowthAreas": [
+    {
+      "area": "NH-9 Corridor",
+      "description": "Prime corridor with commercial and residential development",
+      "potential": "High"
+    },
+    {
+      "area": "Sector 21E & Sector 28",
+      "description": "New residential sectors with affordable plots",
+      "potential": "Very High"
+    },
+    {
+      "area": "PGIMS & IIM Rohtak vicinity",
+      "description": "Educational institutional zone with rental demand",
+      "potential": "High"
+    },
+    {
+      "area": "IMT Rohtak (Hasangarh)",
+      "description": "Industrial Model Township with 24/7 power",
+      "potential": "Excellent"
+    }
+  ],
+  "legalInformation": {
+    "municipalCorporation": "Rohtak Municipal Corporation",
+    "cluzoneChange": "Residential/Industrial/Commercial",
+    "imtApproved": true,
+    "electricityLoad": "24/7 Industrial Power at IMT",
+    "waterSupply": "24/7 Municipal",
+    "reraApproved": true
+  },
+  "marketTrends2025": {
+    "buyerPreference": "Eco-friendly luxury properties, 3BHK-5BHK apartments",
+    "governmentFocus": "Affordable housing and urban expansion",
+    "expectedGrowth": "Steady with strong rental yield",
+    "keyDrivers": [
+      "Infrastructure development",
+      "Educational institutions",
+      "KMP Expressway connectivity",
+      "Government housing schemes"
+    ]
+  },
+  "contact": {
+    "localOffice": "Shop no. 1 - Manodev School, Pipli Kharkhoda, Delhi Road",
+    "phone": "+91-9899570270",
+    "whatsapp": "+91-7876748284",
+    "email": "mahadevrealestate99@gmail.com"
+  }
+}

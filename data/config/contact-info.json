@@ -1,0 +1,42 @@
+{
+  "primaryPhone": "+91-9899570270",
+  "secondaryPhone": "+91-7876748284",
+  "primaryEmail": "mahadevrealestate99@gmail.com",
+  "supportEmail": "mahadevrealestate99@gmail.com",
+  "whatsapp": "+91-7876748284",
+  "whatsappNumber": "917876748284",
+  "address": {
+    "street": "Shop no. 1 - Manodev School",
+    "area": "Pipli Kharkhoda",
+    "city": "Kharkhoda",
+    "state": "Haryana",
+    "landmark": "Delhi Road",
+    "pincode": "131402",
+    "country": "India"
+  },
+  "hours": {
+    "monday": "9:00 AM - 7:00 PM",
+    "tuesday": "9:00 AM - 7:00 PM",
+    "wednesday": "9:00 AM - 7:00 PM",
+    "thursday": "9:00 AM - 7:00 PM",
+    "friday": "9:00 AM - 7:00 PM",
+    "saturday": "9:00 AM - 7:00 PM",
+    "sunday": "10:00 AM - 5:00 PM"
+  },
+  "team": [
+    {
+      "name": "Arvind",
+      "designation": "Founder & Property Consultant",
+      "phone": "+91-9899570270",
+      "email": "mahadevrealestate99@gmail.com",
+      "specialization": "Industrial & Commercial Properties"
+    },
+    {
+      "name": "Lokesh",
+      "designation": "Senior Property Consultant",
+      "phone": "+91-7876748284",
+      "email": "mahadevrealestate99@gmail.com",
+      "specialization": "Residential & Agriculture Land"
+    }
+  ]
+}

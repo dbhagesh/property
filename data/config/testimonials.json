@@ -1,0 +1,64 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rajesh Sharma",
+      "location": "IMT Kharkhoda",
+      "property": "Industrial Plot - 200 sq. yards",
+      "rating": 5,
+      "text": "Mahadev Real Estate helped us find the perfect industrial plot in IMT Kharkhoda. Their team was extremely professional and transparent throughout the process. They negotiated a great deal for us and handled all the paperwork efficiently.",
+      "date": "2 months ago"
+    },
+    {
+      "id": 2,
+      "name": "Priya Malhotra",
+      "location": "Sonipat",
+      "property": "DDJAY Plot - 100 sq. yards",
+      "rating": 5,
+      "text": "As a first-time buyer, I was very anxious about the property purchase. Mahadev Real Estate team guided me through every step, from plot selection to registration. Their expertise in DDJAY scheme saved me both time and money.",
+      "date": "3 months ago"
+    },
+    {
+      "id": 3,
+      "name": "Amit Kumar",
+      "location": "Bahadurgarh",
+      "property": "Residential Plot - 150 sq. yards",
+      "rating": 5,
+      "text": "I've dealt with many property dealers, but Mahadev Real Estate stands out for their honesty and dedication. They showed us multiple options within our budget and never pushed us to make hasty decisions.",
+      "date": "1 month ago"
+    },
+    {
+      "id": 4,
+      "name": "Neha Singh",
+      "location": "IMT Kharkhoda",
+      "property": "Commercial Space - 500 sq. ft",
+      "rating": 5,
+      "text": "Mahadev Real Estate helped me find the perfect commercial space for my business in IMT Kharkhoda. Their understanding of the local industrial market and excellent negotiation skills got me a prime location at a competitive price.",
+      "date": "4 months ago"
+    },
+    {
+      "id": 5,
+      "name": "Vikram Patel",
+      "location": "Rohtak",
+      "property": "Agricultural Land - 5 acres",
+      "rating": 5,
+      "text": "The team's knowledge about agricultural land and future development plans helped me make an informed investment decision. Arvind and Lokesh were available to answer all my queries. Highly recommended!",
+      "date": "2 weeks ago"
+    },
+    {
+      "id": 6,
+      "name": "Sunita Devi",
+      "location": "Sonipat",
+      "property": "DDJAY Plot - 80 sq. yards",
+      "rating": 5,
+      "text": "Mahadev Real Estate made my dream of owning a home possible through the DDJAY scheme. They explained every detail clearly and helped me get the best plot in my budget. Very grateful for their support!",
+      "date": "5 months ago"
+    }
+  ],
+  "stats": {
+    "averageRating": "4.9/5",
+    "happyCustomers": "450+",
+    "satisfactionRate": "100%",
+    "customerSupport": "24/7"
+  }
+}

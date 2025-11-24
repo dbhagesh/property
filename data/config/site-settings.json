@@ -1,0 +1,28 @@
+{
+  "siteName": "Mahadev Real Estate",
+  "tagline": "Your Trusted Property Partner in Haryana",
+  "description": "Leading property dealer specializing in IMT Kharkhoda, Industrial Land, Deen Dayal Jan Awas Yojana plots, and Agriculture Land in Haryana.",
+  "url": "https://mahadevrealestate.com",
+  "logo": "/images/logo.png",
+  "favicon": "/favicon.ico",
+  "social": {
+    "facebook": "https://facebook.com/mahadevrealestate",
+    "twitter": "https://twitter.com/mahadevrealestate",
+    "instagram": "https://instagram.com/mahadevrealestate",
+    "linkedin": "https://linkedin.com/company/mahadevrealestate",
+    "youtube": "https://youtube.com/@mahadevrealestate"
+  },
+  "features": {
+    "blog": true,
+    "search": true,
+    "contactForm": true
+  },
+  "specializations": [
+    "IMT Kharkhoda Industrial Plots",
+    "Industrial Land",
+    "Deen Dayal Jan Awas Yojana Plots",
+    "Agriculture Land",
+    "Residential Plots",
+    "Commercial Properties"
+  ]
+}

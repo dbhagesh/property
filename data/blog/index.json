@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "cmi1pb0ef00011exvayzw8bp8",
+      "title": "new post",
+      "slug": "new-post",
+      "excerpt": "asd",
+      "featuredImage": "/images/blog/new-post.jpg",
+      "author": {
+        "id": "cmhxvfb2200001e94mn0s3n2t",
+        "name": "Admin User"
+      },
+      "category": "General",
+      "tags": [],
+      "status": "PUBLISHED",
+      "publishedAt": "2025-11-16T12:37:42.470Z"
+    },
+    {
+      "id": "test-blog-1",
+      "title": "Test Blog Post",
+      "slug": "test-blog-post",
+      "excerpt": "Test excerpt",
+      "featuredImage": "/images/blog/test-blog-post.jpg",
+      "author": {
+        "id": "cmhxvfb2200001e94mn0s3n2t",
+        "name": "Admin User"
+      },
+      "category": "General",
+      "tags": [],
+      "status": "PUBLISHED",
+      "publishedAt": "2025-11-14T01:48:38.413Z"
+    }
+  ],
+  "lastUpdated": "2025-11-24T13:51:52.913Z"
+}

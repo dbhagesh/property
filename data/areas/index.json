@@ -1,0 +1,61 @@
+{
+  "areas": [
+    {
+      "id": "area-imt-kharkhoda",
+      "name": "IMT Kharkhoda",
+      "slug": "imt-kharkhoda",
+      "city": "Kharkhoda",
+      "district": "Sonipat",
+      "state": "Haryana",
+      "description": "IMT Kharkhoda is a rapidly developing Industrial Model Township in Haryana, strategically located just 40 km from Delhi. This government-planned industrial hub offers excellent connectivity via NH-44 and KMP Expressway.",
+      "imageUrl": "/images/areas/imt-kharkhoda.svg",
+      "propertyCount": 25,
+      "priceRangeMin": 4500000,
+      "priceRangeMax": 80000000,
+      "featured": true
+    },
+    {
+      "id": "area-bahadurgarh",
+      "name": "Bahadurgarh",
+      "slug": "bahadurgarh",
+      "city": "Bahadurgarh",
+      "district": "Jhajjar",
+      "state": "Haryana",
+      "description": "Bahadurgarh is a rapidly growing industrial city in Haryana, located just 25 km from Delhi. Known as the 'Gateway to Haryana', it offers excellent connectivity through metro, highways, and railways.",
+      "imageUrl": "/images/areas/bahadurgarh.svg",
+      "propertyCount": 18,
+      "priceRangeMin": 3500000,
+      "priceRangeMax": 60000000,
+      "featured": true
+    },
+    {
+      "id": "area-sonipat",
+      "name": "Sonipat",
+      "slug": "sonipat",
+      "city": "Sonipat",
+      "district": "Sonipat",
+      "state": "Haryana",
+      "description": "Sonipat is a major district headquarters and educational hub in Haryana, located 45 km from Delhi on NH-44. Known for its DDJAY plots, industrial estates, educational institutions, and agricultural land.",
+      "imageUrl": "/images/areas/sonipat.svg",
+      "propertyCount": 22,
+      "priceRangeMin": 1500000,
+      "priceRangeMax": 50000000,
+      "featured": true
+    },
+    {
+      "id": "area-rohtak",
+      "name": "Rohtak",
+      "slug": "rohtak",
+      "city": "Rohtak",
+      "district": "Rohtak",
+      "state": "Haryana",
+      "description": "Rohtak is a rapidly developing district headquarters in Haryana, located 70 km from Delhi via NH-9. Known for IIM Rohtak, PGIMS Hospital, and strong real estate market with 13% YoY growth in 2024-25.",
+      "imageUrl": "/images/areas/rohtak.svg",
+      "propertyCount": 20,
+      "priceRangeMin": 4100000,
+      "priceRangeMax": 70000000,
+      "featured": true
+    }
+  ],
+  "lastUpdated": "2025-11-24T15:30:00.000Z"
+}

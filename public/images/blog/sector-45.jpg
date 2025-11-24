@@ -1,0 +1,49 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#7C3AED"/>
+  <rect x="50" y="50" width="700" height="500" fill="#8B5CF6" opacity="0.9"/>
+
+  <!-- Location pin -->
+  <circle cx="400" cy="250" r="80" fill="white"/>
+  <path d="M400 200 C420 200 440 220 440 250 C440 280 400 320 400 320 C400 320 360 280 360 250 C360 220 380 200 400 200 Z" fill="#7C3AED"/>
+  <circle cx="400" cy="250" r="20" fill="white"/>
+
+  <!-- Buildings around -->
+  <rect x="200" y="180" width="60" height="80" fill="white" opacity="0.8"/>
+  <rect x="210" y="190" width="10" height="10" fill="#7C3AED"/>
+  <rect x="225" y="190" width="10" height="10" fill="#7C3AED"/>
+  <rect x="240" y="190" width="10" height="10" fill="#7C3AED"/>
+  <rect x="210" y="205" width="10" height="10" fill="#7C3AED"/>
+  <rect x="225" y="205" width="10" height="10" fill="#7C3AED"/>
+  <rect x="240" y="205" width="10" height="10" fill="#7C3AED"/>
+
+  <rect x="540" y="170" width="80" height="100" fill="white" opacity="0.8"/>
+  <rect x="550" y="180" width="12" height="12" fill="#7C3AED"/>
+  <rect x="567" y="180" width="12" height="12" fill="#7C3AED"/>
+  <rect x="584" y="180" width="12" height="12" fill="#7C3AED"/>
+  <rect x="601" y="180" width="12" height="12" fill="#7C3AED"/>
+  <rect x="550" y="197" width="12" height="12" fill="#7C3AED"/>
+  <rect x="567" y="197" width="12" height="12" fill="#7C3AED"/>
+  <rect x="584" y="197" width="12" height="12" fill="#7C3AED"/>
+  <rect x="601" y="197" width="12" height="12" fill="#7C3AED"/>
+
+  <rect x="150" y="350" width="70" height="90" fill="white" opacity="0.8"/>
+  <rect x="160" y="360" width="10" height="10" fill="#7C3AED"/>
+  <rect x="175" y="360" width="10" height="10" fill="#7C3AED"/>
+  <rect x="190" y="360" width="10" height="10" fill="#7C3AED"/>
+  <rect x="205" y="360" width="10" height="10" fill="#7C3AED"/>
+
+  <rect x="580" y="340" width="90" height="110" fill="white" opacity="0.8"/>
+  <rect x="590" y="350" width="12" height="12" fill="#7C3AED"/>
+  <rect x="607" y="350" width="12" height="12" fill="#7C3AED"/>
+  <rect x="624" y="350" width="12" height="12" fill="#7C3AED"/>
+  <rect x="641" y="350" width="12" height="12" fill="#7C3AED"/>
+  <rect x="658" y="350" width="12" height="12" fill="#7C3AED"/>
+
+  <!-- Road -->
+  <rect x="0" y="380" width="800" height="40" fill="#4C1D95" opacity="0.7"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="white" stroke-width="2" stroke-dasharray="10,10"/>
+
+  <!-- Title -->
+  <text x="400" y="450" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">SECTOR 45</text>
+  <text x="400" y="490" text-anchor="middle" fill="#E9D5FF" font-family="Arial, sans-serif" font-size="24">Complete Area Analysis</text>
+</svg>

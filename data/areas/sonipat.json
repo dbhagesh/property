@@ -1,0 +1,135 @@
+{
+  "id": "area-sonipat",
+  "name": "Sonipat",
+  "slug": "sonipat",
+  "city": "Sonipat",
+  "district": "Sonipat",
+  "state": "Haryana",
+  "description": "Sonipat is a major district headquarters and educational hub in Haryana, located 45 km from Delhi on NH-44. Known for its industrial estates, educational institutions, and agricultural land, Sonipat offers diverse real estate opportunities from DDJAY plots to industrial land and residential properties.",
+  "imageUrl": "/images/areas/sonipat.svg",
+  "propertyCount": 22,
+  "priceRangeMin": 1500000,
+  "priceRangeMax": 50000000,
+  "featured": true,
+  "highlights": [
+    "District headquarters with full administrative facilities",
+    "45 km from Delhi via NH-44",
+    "Home to multiple universities and colleges",
+    "DDJAY (Deen Dayal Jan Awas Yojana) approved plots",
+    "Industrial estates by HSIIDC",
+    "Fertile agricultural land available",
+    "Government housing schemes",
+    "Affordable property prices",
+    "DDJAY plots from ₹15 lakhs",
+    "Growing IT and education sector"
+  ],
+  "connectivity": {
+    "metro": "Proposed Metro extension to Sonipat",
+    "highway": "NH-44, KMP Expressway, GT Road",
+    "airport": "IGI Airport (65 km)",
+    "railway": "Sonipat Junction Railway Station (2 km)",
+    "busStand": "Sonipat Bus Stand (1 km)"
+  },
+  "amenities": [
+    "District Hospital",
+    "Private Hospitals and Clinics",
+    "Schools and Universities",
+    "Shopping Malls and Markets",
+    "Banks and Financial Services",
+    "Government Offices",
+    "Sports Facilities",
+    "Parks and Gardens",
+    "24/7 Power Supply",
+    "Municipal Water Supply"
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Delhi Border",
+      "distance": "45 km",
+      "type": "Major City"
+    },
+    {
+      "name": "IMT Kharkhoda",
+      "distance": "20 km",
+      "type": "Industrial Hub"
+    },
+    {
+      "name": "Panipat",
+      "distance": "40 km",
+      "type": "City"
+    },
+    {
+      "name": "Rohtak",
+      "distance": "50 km",
+      "type": "City"
+    }
+  ],
+  "propertyTypes": [
+    {
+      "type": "DDJAY Plots",
+      "availableCount": 10,
+      "priceRange": "₹15 Lakhs - ₹35 Lakhs",
+      "sizes": "60 sq. yards - 150 sq. yards"
+    },
+    {
+      "type": "Residential Plots",
+      "availableCount": 6,
+      "priceRange": "₹25 Lakhs - ₹1.5 Cr",
+      "sizes": "100 sq. yards - 500 sq. yards"
+    },
+    {
+      "type": "Agricultural Land",
+      "availableCount": 4,
+      "priceRange": "₹25 Lakhs - ₹2 Cr per acre",
+      "sizes": "1 acre - 20 acres"
+    },
+    {
+      "type": "Industrial Plots",
+      "availableCount": 2,
+      "priceRange": "₹35 Lakhs - ₹5 Cr",
+      "sizes": "100 sq. yards - 10 acres"
+    }
+  ],
+  "demographics": {
+    "population": "270,000+",
+    "populationGrowth": "Moderate",
+    "literacyRate": "80%",
+    "employmentOpportunities": "Good",
+    "infrastructure": "Good"
+  },
+  "investmentPotential": {
+    "appreciationRate": "10-15% annually",
+    "rentalYield": "5-7%",
+    "riskLevel": "Low",
+    "futureProspects": "Good"
+  },
+  "legalInformation": {
+    "municipalCorporation": "Sonipat Municipal Corporation",
+    "cluzoneChange": "Residential/Industrial/Agricultural",
+    "ddjayApproved": true,
+    "electricityLoad": "Available",
+    "waterSupply": "24/7 Municipal",
+    "reraApproved": true
+  },
+  "specialSchemes": {
+    "ddjay": {
+      "name": "Deen Dayal Jan Awas Yojana",
+      "description": "Government-approved affordable housing plots for economically weaker sections",
+      "plotSizes": "60, 80, 100, 120, 150 sq. yards",
+      "priceRange": "₹15 Lakhs - ₹35 Lakhs",
+      "features": [
+        "Government approved layout",
+        "Clear land titles",
+        "Basic infrastructure provided",
+        "Affordable payment plans",
+        "Easy home loan approval"
+      ]
+    }
+  },
+  "contact": {
+    "localOffice": "Shop no. 1 - Manodev School, Pipli Kharkhoda, Delhi Road",
+    "phone": "+91-9899570270",
+    "whatsapp": "+91-7876748284",
+    "email": "mahadevrealestate99@gmail.com"
+  }
+}

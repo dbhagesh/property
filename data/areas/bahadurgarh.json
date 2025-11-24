@@ -1,0 +1,120 @@
+{
+  "id": "area-bahadurgarh",
+  "name": "Bahadurgarh",
+  "slug": "bahadurgarh",
+  "city": "Bahadurgarh",
+  "district": "Jhajjar",
+  "state": "Haryana",
+  "description": "Bahadurgarh is a rapidly growing industrial city in Haryana, located just 25 km from Delhi. Known as the 'Gateway to Haryana', it offers excellent connectivity through metro, highways, and railways. The city is experiencing significant real estate growth with both industrial and residential developments.",
+  "imageUrl": "/images/areas/bahadurgarh.svg",
+  "propertyCount": 18,
+  "priceRangeMin": 3500000,
+  "priceRangeMax": 60000000,
+  "featured": true,
+  "highlights": [
+    "Delhi Metro connectivity (Green Line)",
+    "25 km from Delhi, excellent road network",
+    "Major industrial hub with HSIIDC estates",
+    "Affordable residential and industrial plots",
+    "Rapid infrastructure development",
+    "Growing commercial centers",
+    "Educational institutions and hospitals nearby",
+    "Plot sizes from 80 sq. yards to 5 acres",
+    "Residential plots from ₹35 lakhs",
+    "Strong rental market"
+  ],
+  "connectivity": {
+    "metro": "Bahadurgarh Metro Station (Green Line)",
+    "highway": "NH-9, KMP Expressway, Rohtak Road",
+    "airport": "IGI Airport (45 km)",
+    "railway": "Bahadurgarh Railway Station (2 km)",
+    "busStand": "Bahadurgarh Bus Stand (1 km)"
+  },
+  "amenities": [
+    "Metro Connectivity",
+    "24/7 Power Supply",
+    "Municipal Water Supply",
+    "Sewage System",
+    "Wide Roads",
+    "Street Lighting",
+    "Parks and Gardens",
+    "Schools and Colleges",
+    "Hospitals and Clinics",
+    "Shopping Complexes",
+    "Banks and ATMs"
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Delhi Border (Tikri Border)",
+      "distance": "10 km",
+      "type": "Major City"
+    },
+    {
+      "name": "Rohtak",
+      "distance": "35 km",
+      "type": "City"
+    },
+    {
+      "name": "Gurgaon",
+      "distance": "40 km",
+      "type": "City"
+    },
+    {
+      "name": "IMT Kharkhoda",
+      "distance": "25 km",
+      "type": "Industrial Hub"
+    }
+  ],
+  "propertyTypes": [
+    {
+      "type": "Residential Plots",
+      "availableCount": 8,
+      "priceRange": "₹35 Lakhs - ₹2 Cr",
+      "sizes": "80 sq. yards - 500 sq. yards"
+    },
+    {
+      "type": "Industrial Plots",
+      "availableCount": 6,
+      "priceRange": "₹40 Lakhs - ₹4 Cr",
+      "sizes": "100 sq. yards - 5 acres"
+    },
+    {
+      "type": "Commercial Properties",
+      "availableCount": 3,
+      "priceRange": "₹50 Lakhs - ₹3 Cr",
+      "sizes": "100 sq. yards - 300 sq. yards"
+    },
+    {
+      "type": "Builder Floors",
+      "availableCount": 1,
+      "priceRange": "₹60 Lakhs - ₹1.5 Cr",
+      "sizes": "1200 sq. ft - 2500 sq. ft"
+    }
+  ],
+  "demographics": {
+    "population": "170,000+",
+    "populationGrowth": "High",
+    "literacyRate": "82%",
+    "employmentOpportunities": "Growing",
+    "infrastructure": "Good"
+  },
+  "investmentPotential": {
+    "appreciationRate": "12-15% annually",
+    "rentalYield": "6-8%",
+    "riskLevel": "Low",
+    "futureProspects": "Very Good"
+  },
+  "legalInformation": {
+    "municipalCorporation": "Bahadurgarh Municipal Corporation",
+    "cluzoneChange": "Residential/Industrial/Commercial",
+    "electricityLoad": "Available",
+    "waterSupply": "24/7 Municipal",
+    "reraApproved": true
+  },
+  "contact": {
+    "localOffice": "Shop no. 1 - Manodev School, Pipli Kharkhoda, Delhi Road",
+    "phone": "+91-9899570270",
+    "whatsapp": "+91-7876748284",
+    "email": "mahadevrealestate99@gmail.com"
+  }
+}

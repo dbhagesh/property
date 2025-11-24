@@ -1,0 +1,37 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#059669"/>
+  <rect x="50" y="50" width="700" height="500" fill="#10B981" opacity="0.9"/>
+
+  <!-- Document icon -->
+  <rect x="250" y="150" width="300" height="400" fill="white" rx="10"/>
+  <rect x="250" y="150" width="300" height="60" fill="#059669" rx="10"/>
+  <rect x="250" y="490" width="300" height="60" fill="#059669" rx="10"/>
+
+  <!-- Document lines -->
+  <line x1="280" y1="240" x2="520" y2="240" stroke="#059669" stroke-width="4"/>
+  <line x1="280" y1="260" x2="450" y2="260" stroke="#059669" stroke-width="4"/>
+  <line x1="280" y1="280" x2="500" y2="280" stroke="#059669" stroke-width="4"/>
+  <line x1="280" y1="300" x2="420" y2="300" stroke="#059669" stroke-width="4"/>
+
+  <line x1="280" y1="330" x2="520" y2="330" stroke="#059669" stroke-width="4"/>
+  <line x1="280" y1="350" x2="480" y2="350" stroke="#059669" stroke-width="4"/>
+  <line x1="280" y1="370" x2="440" y2="370" stroke="#059669" stroke-width="4"/>
+
+  <line x1="280" y1="400" x2="520" y2="400" stroke="#059669" stroke-width="4"/>
+  <line x1="280" y1="420" x2="460" y2="420" stroke="#059669" stroke-width="4"/>
+
+  <!-- Checkmark -->
+  <circle cx="150" cy="300" r="60" fill="white"/>
+  <path d="M125 300 L140 315 L175 285" stroke="#059669" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Seal/Stamp -->
+  <circle cx="650" cy="300" r="60" fill="white"/>
+  <circle cx="650" cy="300" r="40" fill="none" stroke="#059669" stroke-width="4"/>
+  <text x="650" y="285" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">GOVT</text>
+  <text x="650" y="300" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">OF</text>
+  <text x="650" y="315" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">HARYANA</text>
+
+  <!-- Title -->
+  <text x="400" y="80" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="36" font-weight="bold">LEGAL GUIDE</text>
+  <text x="400" y="120" text-anchor="middle" fill="#D1FAE5" font-family="Arial, sans-serif" font-size="24">Property Registration Process</text>
+</svg>

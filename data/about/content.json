@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "title": "About Mahadev Real Estate",
+    "subtitle": "Your Trusted Property Partner in Haryana",
+    "description": "With over 10 years of experience in the Haryana real estate market, Mahadev Real Estate has helped thousands of families and businesses find their perfect properties in IMT Kharkhoda, Bahadurgarh, Sonipat, and Rohtak.",
+    "image": "/images/about/hero.jpg"
+  },
+  "story": {
+    "title": "Our Story",
+    "content": "<p>Founded in 2015, Mahadev Real Estate has been serving the Haryana real estate market with dedication and transparency. What started as a small team of passionate property consultants has grown into one of the most trusted names in the region, specializing in IMT Kharkhoda industrial plots, DDJAY residential plots, and agricultural land.</p><p>Our journey has been marked by countless success stories of families finding their dream homes, businesses securing industrial plots, and investors making sound property decisions in Haryana's growing real estate market.</p>",
+    "image": "/images/about/story.jpg"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "To provide transparent, reliable, and professional real estate services that help our clients make informed property decisions in Haryana's thriving real estate market.",
+    "values": [
+      {
+        "title": "Transparency",
+        "description": "We believe in complete transparency in all our dealings. No hidden charges, no misleading information.",
+        "icon": "transparency"
+      },
+      {
+        "title": "Trust",
+        "description": "Building long-term relationships based on trust and reliability is at the core of our business.",
+        "icon": "trust"
+      },
+      {
+        "title": "Excellence",
+        "description": "We strive for excellence in every interaction, ensuring the best service for our clients.",
+        "icon": "excellence"
+      },
+      {
+        "title": "Local Expertise",
+        "description": "Our team brings deep knowledge of Haryana's real estate market, especially IMT Kharkhoda, Bahadurgarh, Sonipat, and Rohtak areas.",
+        "icon": "expertise"
+      }
+    ]
+  },
+  "statistics": [
+    {
+      "label": "Properties Sold",
+      "value": "350+",
+      "icon": "properties"
+    },
+    {
+      "label": "Happy Clients",
+      "value": "450+",
+      "icon": "clients"
+    },
+    {
+      "label": "Years of Experience",
+      "value": "10+",
+      "icon": "experience"
+    },
+    {
+      "label": "Areas Covered",
+      "value": "15+",
+      "icon": "areas"
+    }
+  ],
+  "seo": {
+    "metaTitle": "About Mahadev Real Estate - Leading Property Dealer in Haryana",
+    "metaDescription": "Learn about Mahadev Real Estate, Haryana's trusted property dealer with 10+ years of experience in IMT Kharkhoda, Bahadurgarh, Sonipat, and Rohtak. Expert in DDJAY plots and industrial land.",
+    "keywords": [
+      "about mahadev real estate",
+      "real estate haryana",
+      "property dealer haryana",
+      "IMT kharkhoda property dealer",
+      "DDJAY plots"
+    ]
+  }
+}

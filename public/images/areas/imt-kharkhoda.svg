@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad)"/>
+  <text x="50%" y="45%" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">
+    IMT Kharkhoda
+  </text>
+  <text x="50%" y="55%" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.9)" text-anchor="middle" dominant-baseline="middle">
+    Industrial Model Township
+  </text>
+  <text x="50%" y="95%" font-family="Arial, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)" text-anchor="middle">
+    Mahadev Real Estate - Your Trusted Property Partner
+  </text>
+</svg>

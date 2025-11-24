@@ -1,0 +1,47 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#DC2626"/>
+  <rect x="50" y="50" width="700" height="500" fill="#EF4444" opacity="0.9"/>
+
+  <!-- House icon -->
+  <polygon points="400,150 300,250 500,250" fill="white"/>
+  <rect x="330" y="250" width="140" height="100" fill="white"/>
+  <rect x="350" y="270" width="30" height="30" fill="#DC2626"/>
+  <rect x="390" y="270" width="30" height="30" fill="#DC2626"/>
+  <rect x="430" y="270" width="30" height="30" fill="#DC2626"/>
+  <rect x="350" y="310" width="30" height="30" fill="#DC2626"/>
+  <rect x="430" y="310" width="30" height="30" fill="#DC2626"/>
+  <rect x="380" y="310" width="40" height="40" fill="#DC2626"/>
+
+  <!-- Key icon -->
+  <circle cx="600" cy="200" r="40" fill="white"/>
+  <rect x="580" y="180" width="40" height="15" fill="#DC2626" rx="7"/>
+  <rect x="615" y="175" width="8" height="8" fill="#DC2626"/>
+  <rect x="615" y="187" width="8" height="8" fill="#DC2626"/>
+
+  <!-- Checklist -->
+  <rect x="150" y="300" width="200" height="150" fill="white" opacity="0.9" rx="10"/>
+  <circle cx="170" cy="320" r="8" fill="#DC2626"/>
+  <path d="M165 320 L168 323 L175 316" stroke="white" stroke-width="2" fill="none"/>
+  <line x1="185" y1="320" x2="330" y2="320" stroke="#DC2626" stroke-width="3"/>
+
+  <circle cx="170" cy="340" r="8" fill="#DC2626"/>
+  <path d="M165 340 L168 343 L175 336" stroke="white" stroke-width="2" fill="none"/>
+  <line x1="185" y1="340" x2="320" y2="340" stroke="#DC2626" stroke-width="3"/>
+
+  <circle cx="170" cy="360" r="8" fill="#DC2626"/>
+  <path d="M165 360 L168 363 L175 356" stroke="white" stroke-width="2" fill="none"/>
+  <line x1="185" y1="360" x2="310" y2="360" stroke="#DC2626" stroke-width="3"/>
+
+  <circle cx="170" cy="380" r="8" fill="#DC2626"/>
+  <path d="M165 380 L168 383 L175 376" stroke="white" stroke-width="2" fill="none"/>
+  <line x1="185" y1="380" x2="290" y2="380" stroke="#DC2626" stroke-width="3"/>
+
+  <!-- Warning triangle -->
+  <polygon points="650,350 620,400 680,400" fill="#FBBF24"/>
+  <circle cx="650" cy="370" r="3" fill="#DC2626"/>
+  <rect x="647" y="380" width="6" height="12" fill="#DC2626"/>
+
+  <!-- Title -->
+  <text x="400" y="480" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="36" font-weight="bold">HOME BUYING GUIDE</text>
+  <text x="400" y="520" text-anchor="middle" fill="#FEE2E2" font-family="Arial, sans-serif" font-size="24">Tips &amp; Mistakes to Avoid</text>
+</svg>

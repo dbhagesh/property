@@ -1,0 +1,183 @@
+{
+  "hero": {
+    "badge": "#1 Property Dealer in Haryana",
+    "title": {
+      "line1": "Find Your Dream",
+      "highlighted": "Property",
+      "line2": "in",
+      "highlightedCity": "Haryana"
+    },
+    "description": "Your trusted partner for buying, selling, and renting properties. Get the best deals with expert guidance.",
+    "searchPlaceholder": "Select an area",
+    "searchButton": "Search Properties",
+    "ctaButtons": {
+      "whatsapp": "WhatsApp Us",
+      "call": "Call Now"
+    },
+    "propertyShowcase": [
+      {
+        "title": "IMT Kharkhoda Plots",
+        "startingPrice": "₹45 Lakhs",
+        "image": "/images/hero/property-1.svg"
+      },
+      {
+        "title": "DDJAY Plots",
+        "startingPrice": "₹15 Lakhs",
+        "image": "/images/hero/property-2.svg"
+      },
+      {
+        "title": "Industrial Land",
+        "subtitle": "Prime Locations",
+        "image": "/images/hero/property-3.svg"
+      },
+      {
+        "title": "Agriculture Land",
+        "startingPrice": "₹25 Lakhs",
+        "image": "/images/hero/property-4.svg"
+      }
+    ],
+    "newListingCard": {
+      "title": "New Listing",
+      "subtitle": "48 Properties Added Today"
+    }
+  },
+  "whyChooseUs": {
+    "badge": "Why Choose Us",
+    "title": "Your Trusted",
+    "titleHighlighted": "Property Partner",
+    "titleSuffix": "in Haryana",
+    "description": "With over 10 years of experience in Haryana real estate market, we specialize in IMT Kharkhoda industrial plots, DDJAY plots, and agricultural land.",
+    "features": [
+      {
+        "icon": "award",
+        "title": "10+ Years Experience",
+        "description": "Decade of expertise in Haryana real estate market specializing in IMT Kharkhoda and industrial properties",
+        "color": "primary"
+      },
+      {
+        "icon": "userShield",
+        "title": "Verified Properties",
+        "description": "All properties are legally verified and documentation checked thoroughly",
+        "color": "success"
+      },
+      {
+        "icon": "handshake",
+        "title": "Transparent Dealings",
+        "description": "No hidden charges, complete transparency in all our transactions",
+        "color": "accent"
+      },
+      {
+        "icon": "chartLine",
+        "title": "Best Market Rates",
+        "description": "Competitive pricing and best deals through our vast network",
+        "color": "secondary"
+      },
+      {
+        "icon": "home",
+        "title": "500+ Active Listings",
+        "description": "Wide range of properties to choose from across all budgets",
+        "color": "primary"
+      },
+      {
+        "icon": "certificate",
+        "title": "RERA Registered",
+        "description": "Government registered and certified real estate agency",
+        "color": "success"
+      }
+    ],
+    "ctaButton": "Talk to Expert",
+    "achievements": [
+      {
+        "label": "Properties Sold",
+        "suffix": "+"
+      },
+      {
+        "label": "Happy Families",
+        "suffix": "+"
+      },
+      {
+        "label": "Years of Trust",
+        "suffix": "+"
+      },
+      {
+        "number": "100",
+        "label": "Success Rate",
+        "suffix": "%"
+      }
+    ],
+    "image": "/images/why-choose-us.jpg"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "What We",
+    "titleHighlighted": "Offer",
+    "description": "Comprehensive real estate solutions tailored to your needs",
+    "serviceList": [
+      {
+        "icon": "home",
+        "title": "Property Buying",
+        "description": "Expert assistance in finding and purchasing your ideal property",
+        "link": "/services/buying"
+      },
+      {
+        "icon": "tag",
+        "title": "Property Selling",
+        "description": "Get the best value for your property with our marketing expertise",
+        "link": "/services/selling"
+      },
+      {
+        "icon": "key",
+        "title": "Property Rental",
+        "description": "Find perfect rental properties or rent out your property hassle-free",
+        "link": "/services/rental"
+      },
+      {
+        "icon": "chartLine",
+        "title": "Investment Advisory",
+        "description": "Make informed investment decisions with our market insights",
+        "link": "/services/advisory"
+      },
+      {
+        "icon": "fileAlt",
+        "title": "Legal Assistance",
+        "description": "Complete documentation and legal support for your transactions",
+        "link": "/services/legal"
+      },
+      {
+        "icon": "calculator",
+        "title": "Home Loan Assistance",
+        "description": "Get the best home loan rates with our banking partnerships",
+        "link": "/services/loans"
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Our",
+    "titleHighlighted": "Clients Say",
+    "description": "Read what our happy customers have to say about us"
+  },
+  "featuredAreas": {
+    "badge": "Popular Localities",
+    "title": "Explore Properties in",
+    "titleHighlighted": "Prime Areas",
+    "description": "Discover the best industrial, residential, and agricultural properties in IMT Kharkhoda, Bahadurgarh, Sonipat, and Rohtak",
+    "viewAllButton": "View All Areas"
+  },
+  "featuredProperties": {
+    "badge": "Featured Properties",
+    "title": "Latest",
+    "titleHighlighted": "Property Listings",
+    "description": "Handpicked properties that match your dream home criteria",
+    "viewAllButton": "View All Properties"
+  },
+  "cta": {
+    "badge": "Get Started",
+    "title": "Ready to Find Your",
+    "titleHighlighted": "Dream Property",
+    "titleSuffix": "?",
+    "description": "Connect with our property experts today and take the first step towards your dream home",
+    "primaryButton": "Schedule a Consultation",
+    "secondaryButton": "Browse Properties"
+  }
+}

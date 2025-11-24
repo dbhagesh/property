@@ -1,0 +1,118 @@
+{
+  "id": "area-imt-kharkhoda",
+  "name": "IMT Kharkhoda",
+  "slug": "imt-kharkhoda",
+  "city": "Kharkhoda",
+  "district": "Sonipat",
+  "state": "Haryana",
+  "description": "IMT Kharkhoda is a rapidly developing Industrial Model Township in Haryana, strategically located just 40 km from Delhi. This government-planned industrial hub offers excellent connectivity via NH-44 and KMP Expressway, making it one of the most sought-after locations for industrial investments in North India.",
+  "imageUrl": "/images/areas/imt-kharkhoda.svg",
+  "propertyCount": 25,
+  "priceRangeMin": 4500000,
+  "priceRangeMax": 80000000,
+  "featured": true,
+  "highlights": [
+    "Government-planned Industrial Model Township",
+    "40 km from Delhi, excellent NH-44 connectivity",
+    "Close to KMP Expressway and Western Peripheral Expressway",
+    "24/7 industrial power supply with backup",
+    "HSIIDC developed infrastructure",
+    "Plot sizes from 100 sq. yards to 10 acres",
+    "Industrial plots starting from ₹45 lakhs",
+    "Rapid infrastructure development",
+    "Growing commercial ecosystem",
+    "Tax benefits for industrial units"
+  ],
+  "connectivity": {
+    "metro": "Nearest Metro: Samaypur Badli (40 km)",
+    "highway": "NH-44, KMP Expressway, Western Peripheral Expressway",
+    "airport": "IGI Airport (60 km)",
+    "railway": "Kharkhoda Railway Station (5 km), Sonipat Junction (20 km)",
+    "busStand": "Kharkhoda Bus Stand (3 km)"
+  },
+  "amenities": [
+    "Industrial Power Supply (24/7)",
+    "Water Supply Network",
+    "Sewage Treatment Plant",
+    "Wide Roads (60-100 ft)",
+    "Street Lighting",
+    "Security Systems",
+    "Fire Safety Infrastructure",
+    "Commercial Centers",
+    "Banking Facilities",
+    "Warehousing Options"
+  ],
+  "nearbyPlaces": [
+    {
+      "name": "Kundli Industrial Area",
+      "distance": "15 km",
+      "type": "Industrial Hub"
+    },
+    {
+      "name": "Bahadurgarh",
+      "distance": "25 km",
+      "type": "City"
+    },
+    {
+      "name": "Sonipat",
+      "distance": "20 km",
+      "type": "City"
+    },
+    {
+      "name": "Delhi Border",
+      "distance": "40 km",
+      "type": "Major City"
+    }
+  ],
+  "propertyTypes": [
+    {
+      "type": "Industrial Plots",
+      "availableCount": 15,
+      "priceRange": "₹45 Lakhs - ₹5 Cr",
+      "sizes": "100 sq. yards - 10 acres"
+    },
+    {
+      "type": "Commercial Plots",
+      "availableCount": 5,
+      "priceRange": "₹35 Lakhs - ₹2 Cr",
+      "sizes": "80 sq. yards - 500 sq. yards"
+    },
+    {
+      "type": "Warehouse Spaces",
+      "availableCount": 3,
+      "priceRange": "₹60 Lakhs - ₹3 Cr",
+      "sizes": "2000 sq. ft - 20000 sq. ft"
+    },
+    {
+      "type": "Built-up Industrial Units",
+      "availableCount": 2,
+      "priceRange": "₹1 Cr - ₹8 Cr",
+      "sizes": "5000 sq. ft - 50000 sq. ft"
+    }
+  ],
+  "demographics": {
+    "populationGrowth": "High",
+    "industrialGrowth": "Rapid",
+    "employmentOpportunities": "Growing",
+    "infrastructure": "Excellent"
+  },
+  "investmentPotential": {
+    "appreciationRate": "15-20% annually",
+    "rentalYield": "8-10%",
+    "riskLevel": "Low to Medium",
+    "futureProspects": "Excellent"
+  },
+  "legalInformation": {
+    "hsiidc": "HSIIDC Approved",
+    "cluzoneChange": "Industrial",
+    "electricityLoad": "Available as per requirement",
+    "waterSupply": "24/7 Municipal",
+    "reraApproved": true
+  },
+  "contact": {
+    "localOffice": "Shop no. 1 - Manodev School, Pipli Kharkhoda, Delhi Road",
+    "phone": "+91-9899570270",
+    "whatsapp": "+91-7876748284",
+    "email": "mahadevrealestate99@gmail.com"
+  }
+}
