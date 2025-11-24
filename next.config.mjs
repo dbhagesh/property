@@ -7,10 +7,10 @@ const nextConfig = {
   // Base path for GitHub Pages (update this with your repo name)
   // For example: if your repo is 'username.github.io/property-website', use '/property-website'
   // If deploying to username.github.io (root), leave basePath empty
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/property',
 
   // Asset prefix for GitHub Pages
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '/property',
 
   // React strict mode for better error handling
   reactStrictMode: true,
@@ -42,7 +42,7 @@ const nextConfig = {
   // Environment variables validation
   env: {
     SITE_NAME: 'Mahadev Real Estate',
-    SITE_URL: process.env.NEXT_PUBLIC_APP_URL || 'https://yourusername.github.io',
+    SITE_URL: process.env.NEXT_PUBLIC_APP_URL || 'https://dbhagesh.github.io/property',
   },
 
   // Trailing slash for better compatibility with static hosting
