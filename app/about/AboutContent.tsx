@@ -163,6 +163,7 @@ export default function AboutContent() {
                 fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
+                  loading="lazy"
                   unoptimized
                 />
             </motion.div>
@@ -232,6 +233,7 @@ export default function AboutContent() {
                       fill
                       sizes="(max-width: 768px) 100vw, 25vw"
                       className="object-cover"
+                      loading="lazy"
                       unoptimized
                     />
                   )}

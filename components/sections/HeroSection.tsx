@@ -194,6 +194,8 @@ export const HeroSection = () => {
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover hover:scale-110 transition-transform duration-300"
+                      priority={idx === 0}
+                      loading={idx === 0 ? undefined : "lazy"}
                       unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
@@ -216,6 +218,7 @@ export const HeroSection = () => {
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover hover:scale-110 transition-transform duration-300"
+                      loading="lazy"
                       unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
