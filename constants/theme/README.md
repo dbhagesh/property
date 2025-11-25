@@ -15,7 +15,24 @@ All website colors are managed from a **single file**: `constants/theme/colors.t
 
 ## 📋 Available Color Themes
 
-### 1. **Saffron Theme** (Currently Active)
+### 1. **Forest Green Theme** (Currently Active - Matches Logo!)
+```typescript
+export const activeTheme = forestGreenTheme;
+```
+- **Color**: Dark Forest Green (#15803d)
+- **Best For**: Natural, trustworthy, matches your brand logo
+- **Mood**: Professional, stable, earthy
+- **Perfect Match**: Complements your logo colors
+
+### 2. **Golden Yellow Theme**
+```typescript
+export const activeTheme = goldenTheme;
+```
+- **Color**: Golden Yellow (#eab308)
+- **Best For**: Prosperity, luxury, warm brand presence
+- **Mood**: Wealthy, premium, optimistic
+
+### 3. **Saffron Theme**
 ```typescript
 export const activeTheme = saffronTheme;
 ```
@@ -23,7 +40,7 @@ export const activeTheme = saffronTheme;
 - **Best For**: Bold presence, traditional values, culturally resonant
 - **Mood**: Energetic, warm, spiritual
 
-### 2. **Emerald Theme**
+### 4. **Emerald Theme**
 ```typescript
 export const activeTheme = emeraldTheme;
 ```
@@ -31,7 +48,7 @@ export const activeTheme = emeraldTheme;
 - **Best For**: Growth, investment, prosperity
 - **Mood**: Fresh, trustworthy, positive
 
-### 3. **Royal Blue Theme**
+### 5. **Royal Blue Theme**
 ```typescript
 export const activeTheme = royalBlueTheme;
 ```
@@ -39,7 +56,7 @@ export const activeTheme = royalBlueTheme;
 - **Best For**: Professional, corporate image
 - **Mood**: Reliable, stable, trustworthy
 
-### 4. **Teal Theme**
+### 6. **Teal Theme**
 ```typescript
 export const activeTheme = tealTheme;
 ```
@@ -47,7 +64,7 @@ export const activeTheme = tealTheme;
 - **Best For**: Modern, sophisticated look
 - **Mood**: Contemporary, balanced, professional
 
-### 5. **Crimson Theme**
+### 7. **Crimson Theme**
 ```typescript
 export const activeTheme = crimsonTheme;
 ```
@@ -55,7 +72,7 @@ export const activeTheme = crimsonTheme;
 - **Best For**: Bold statements, premium properties
 - **Mood**: Powerful, energetic, attention-grabbing
 
-### 6. **Purple Theme**
+### 8. **Purple Theme**
 ```typescript
 export const activeTheme = purpleTheme;
 ```
@@ -118,17 +135,23 @@ export const activeTheme = customTheme;
 
 ## 💡 Recommendations
 
+### For Logo Match & Brand Consistency (RECOMMENDED!)
+→ Use **Forest Green Theme** (current) - Perfectly matches your logo
+
+### For Luxury & Premium Properties
+→ Use **Golden Yellow Theme** or **Purple Theme**
+
 ### For Professional Corporate Look
 → Use **Royal Blue Theme** or **Teal Theme**
 
 ### For Traditional/Cultural Connect
-→ Use **Saffron Theme** (current)
+→ Use **Saffron Theme**
 
 ### For Modern Real Estate Brand
 → Use **Emerald Theme** or **Teal Theme**
 
-### For Luxury Properties Focus
-→ Use **Purple Theme** or **Crimson Theme**
+### For Bold & Attention-Grabbing
+→ Use **Crimson Theme**
 
 ---
 
@@ -141,6 +164,7 @@ After changing the theme:
 3. Check contact forms and buttons
 4. Test on mobile view
 5. Verify all pages look consistent
+6. Compare with logo to ensure harmony
 
 ---
 
@@ -148,4 +172,4 @@ After changing the theme:
 
 If you need help customizing colors or creating a unique theme, contact your developer.
 
-**Current Theme**: Saffron (Orange) - Bold and prominent for Mahadev Realtors
+**Current Theme**: Forest Green (#15803d) - Matches your logo perfectly and conveys trust, stability, and natural growth.

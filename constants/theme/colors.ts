@@ -117,13 +117,50 @@ const purpleTheme = {
   },
 };
 
+// Theme 7: Dark Forest Green (Matches Logo - Professional, Trustworthy)
+// Perfect for: Natural, stable, matching your brand identity
+const forestGreenTheme = {
+  primary: {
+    50: "#f0fdf4",
+    100: "#dcfce7",
+    200: "#bbf7d0",
+    300: "#86efac",
+    400: "#4ade80",
+    500: "#22c55e", // Main forest green
+    600: "#16a34a",
+    700: "#15803d", // Deep forest green like logo
+    800: "#166534",
+    900: "#14532d",
+    950: "#052e16",
+  },
+};
+
+// Theme 8: Golden Yellow (Prosperity, Success, Warmth)
+// Perfect for: Luxury, premium properties, warm brand presence
+const goldenTheme = {
+  primary: {
+    50: "#fefce8",
+    100: "#fef9c3",
+    200: "#fef08a",
+    300: "#fde047",
+    400: "#facc15",
+    500: "#eab308", // Main golden yellow
+    600: "#ca8a04",
+    700: "#a16207",
+    800: "#854d0e",
+    900: "#713f12",
+    950: "#422006",
+  },
+};
+
 // ============================================================================
 // ACTIVE THEME - Change this to switch the entire website theme
 // ============================================================================
 
 // 👇 CHANGE THIS LINE TO SWITCH THEMES
-// Options: saffronTheme, emeraldTheme, royalBlueTheme, tealTheme, crimsonTheme, purpleTheme
-export const activeTheme = saffronTheme;
+// Options: forestGreenTheme (matches logo), goldenTheme, saffronTheme, emeraldTheme,
+//          royalBlueTheme, tealTheme, crimsonTheme, purpleTheme
+export const activeTheme = forestGreenTheme;
 
 // ============================================================================
 // FIXED COLOR PALETTES (Don't change unless necessary)
