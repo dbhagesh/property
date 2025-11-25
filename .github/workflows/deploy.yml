@@ -35,6 +35,7 @@ jobs:
         env:
           NODE_ENV: production
           NEXT_PUBLIC_BASE_PATH:
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: G-0VKT2693KE
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
