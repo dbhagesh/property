@@ -1,19 +1,21 @@
+import { SITE_NAME, SITE_DESCRIPTION } from "./branding";
+
 export const SEO_CONFIG = {
-  siteName: "Mahadev Real Estate",
-  siteDescription: "Leading property dealer in Haryana specializing in IMT Kharkhoda, Bahadurgarh, Sonipat, and Rohtak. DDJAY plots, industrial land, and agricultural properties.",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://mahadevrealestate.com",
+  siteName: SITE_NAME,
+  siteDescription: SITE_DESCRIPTION,
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://mahadevrealtors.com",
   defaultImage: "/images/og-image.jpg",
-  twitterHandle: "@mahadevrealestate",
+  twitterHandle: "@mahadevrealtors",
 
   // Default SEO values
-  defaultTitle: "Property Dealer in Haryana | IMT Kharkhoda, DDJAY Plots | Mahadev Real Estate",
-  titleTemplate: "%s | Mahadev Real Estate",
+  defaultTitle: `Property Dealer in Haryana | IMT Kharkhoda, DDJAY Plots | ${SITE_NAME}`,
+  titleTemplate: `%s | ${SITE_NAME}`,
 
   // Open Graph defaults
   openGraph: {
     type: "website",
     locale: "en_IN",
-    site_name: "Mahadev Real Estate",
+    site_name: SITE_NAME,
   },
 
   // Contact Information for structured data
@@ -38,25 +40,25 @@ export const SEO_CONFIG = {
 export const PAGE_SEO = {
   home: {
     title: "Property Dealer in Haryana | IMT Kharkhoda, DDJAY Plots",
-    description: "Mahadev Real Estate - Trusted property dealer in Haryana specializing in IMT Kharkhoda industrial plots, DDJAY residential plots, agricultural land in Sonipat, Bahadurgarh, and Rohtak. 10+ years experience.",
+    description: `${SITE_NAME} - Trusted property dealer in Haryana specializing in IMT Kharkhoda industrial plots, DDJAY residential plots, agricultural land in Sonipat, Bahadurgarh, and Rohtak. 10+ years experience.`,
     keywords: ["property dealer haryana", "IMT kharkhoda plots", "ddjay plots", "industrial land haryana", "bahadurgarh property", "sonipat property", "rohtak property"],
   },
   about: {
     title: "About Us - Leading Property Dealer in Haryana",
-    description: "Mahadev Real Estate - Trusted property dealer in Haryana with 10+ years experience. Specializing in IMT Kharkhoda, DDJAY plots, industrial and agricultural land.",
-    keywords: ["about mahadev real estate", "real estate company haryana", "property consultants kharkhoda"],
+    description: `${SITE_NAME} - Trusted property dealer in Haryana with 10+ years experience. Specializing in IMT Kharkhoda, DDJAY plots, industrial and agricultural land.`,
+    keywords: ["about mahadev realtors", "real estate company haryana", "property consultants kharkhoda"],
   },
   contact: {
     title: "Contact Us - Property Dealer in Haryana",
-    description: "Get in touch with Mahadev Real Estate for all your property needs in Haryana. Office in Kharkhoda. Call +91-9899570270 or WhatsApp +91-7876748284.",
-    keywords: ["contact property dealer", "mahadev real estate contact", "real estate office kharkhoda"],
+    description: `Get in touch with ${SITE_NAME} for all your property needs in Haryana. Office in Kharkhoda. Call +91-9899570270 or WhatsApp +91-7876748284.`,
+    keywords: ["contact property dealer", "mahadev realtors contact", "real estate office kharkhoda"],
   },
 };
 
 // Area page SEO template
 export const getAreaPageSEO = (areaName: string, city: string = "Haryana") => ({
   title: `${areaName} Property Dealer | Real Estate in ${areaName}, ${city}`,
-  description: `Looking for property in ${areaName}, ${city}? Mahadev Real Estate offers best deals on industrial plots, DDJAY residential plots, agricultural land, and commercial properties.`,
+  description: `Looking for property in ${areaName}, ${city}? ${SITE_NAME} offers best deals on industrial plots, DDJAY residential plots, agricultural land, and commercial properties.`,
   keywords: [
     `${areaName.toLowerCase()} property dealer`,
     `property in ${areaName.toLowerCase()}`,
@@ -120,7 +122,7 @@ export const getOrganizationSchema = () => ({
 export const getLocalBusinessSchema = (area: string) => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: `Mahadev Real Estate ${area}`,
+  name: `${SITE_NAME} ${area}`,
   description: `Property dealer specializing in ${area} real estate - Industrial plots, DDJAY plots, agricultural land`,
   url: `${SEO_CONFIG.siteUrl}/deals/${area.toLowerCase().replace(/ /g, "-")}`,
   telephone: SEO_CONFIG.contact.telephone,

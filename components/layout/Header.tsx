@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
 import { AREAS } from "@/constants/areas";
 import { CONTACT_INFO, getWhatsAppUrl } from "@/constants/contact";
+import { SITE_NAME, SITE_TAGLINE, LOGO_ALT } from "@/constants/branding";
 import {
   FaBars,
   FaTimes,
@@ -88,7 +89,7 @@ export const Header = () => {
               <div className="relative h-12 w-12 flex-shrink-0">
                 <Image
                   src="/images/logo.png"
-                  alt="Mahadev Real Estate Logo"
+                  alt={LOGO_ALT}
                   fill
                   className="object-contain"
                   priority
@@ -96,10 +97,10 @@ export const Header = () => {
               </div>
               <div>
                 <h1 className="font-heading font-bold text-xl text-secondary-900">
-                  Mahadev Real Estate
+                  {SITE_NAME}
                 </h1>
                 <p className="text-xs text-secondary-600 hidden sm:block">
-                  Your Trusted Property Partner
+                  {SITE_TAGLINE}
                 </p>
               </div>
             </Link>

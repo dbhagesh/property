@@ -1,11 +1,11 @@
 {
-  "name": "Mahadev Real Estate - Leading Property Dealer in Haryana",
-  "short_name": "Mahadev Realty",
-  "description": "Find the best properties in Haryana with Mahadev Real Estate - Your trusted property dealer specializing in IMT Kharkhoda, DDJAY plots, industrial & agricultural land since 2015",
+  "name": "Mahadev Realtors - Leading Property Dealer in Haryana",
+  "short_name": "Mahadev Realtors",
+  "description": "Find the best properties in Haryana with Mahadev Realtors - Your trusted property dealer specializing in IMT Kharkhoda, DDJAY plots, industrial & agricultural land since 2015",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0ea5e9",
+  "theme_color": "#f97316",
   "orientation": "portrait",
   "icons": [
     {

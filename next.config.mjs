@@ -42,7 +42,7 @@ const nextConfig = {
 
   // Environment variables validation
   env: {
-    SITE_NAME: 'Mahadev Real Estate',
+    SITE_NAME: 'Mahadev Realtors',
     SITE_URL: process.env.NEXT_PUBLIC_APP_URL || 'https://dbhagesh.github.io/property',
   },
 
