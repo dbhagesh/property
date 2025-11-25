@@ -83,7 +83,7 @@ export default function ContactForm() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -92,7 +92,7 @@ export default function ContactForm() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h1>
-            <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+            <p className="text-xl text-primary-100 max-w-2xl mx-auto">
               Ready to find your dream property? Contact our expert team today
             </p>
           </motion.div>
@@ -220,8 +220,8 @@ export default function ContactForm() {
               <div className="space-y-6">
                 {/* Office Address */}
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <FaMapMarkerAlt className="text-blue-600 text-xl" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+                    <FaMapMarkerAlt className="text-primary-600 text-xl" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Office Address</h3>
@@ -231,18 +231,18 @@ export default function ContactForm() {
 
                 {/* Phone Numbers */}
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <FaPhone className="text-blue-600 text-xl" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+                    <FaPhone className="text-primary-600 text-xl" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone Numbers</h3>
                     <p className="text-gray-600">
-                      <a href={`tel:${CONTACT_INFO.primaryPhone}`} className="hover:text-blue-600 transition-colors">
+                      <a href={`tel:${CONTACT_INFO.primaryPhone}`} className="hover:text-primary-600 transition-colors">
                         {CONTACT_INFO.primaryPhone}
                       </a>
                     </p>
                     <p className="text-gray-600">
-                      <a href={`tel:${CONTACT_INFO.secondaryPhone}`} className="hover:text-blue-600 transition-colors">
+                      <a href={`tel:${CONTACT_INFO.secondaryPhone}`} className="hover:text-primary-600 transition-colors">
                         {CONTACT_INFO.secondaryPhone}
                       </a>
                     </p>
@@ -251,14 +251,14 @@ export default function ContactForm() {
 
                 {/* Email */}
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <FaEnvelope className="text-blue-600 text-xl" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+                    <FaEnvelope className="text-primary-600 text-xl" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                     <a
                       href={`mailto:${CONTACT_INFO.primaryEmail}`}
-                      className="text-gray-600 hover:text-blue-600 transition-colors"
+                      className="text-gray-600 hover:text-primary-600 transition-colors"
                     >
                       {CONTACT_INFO.primaryEmail}
                     </a>
@@ -285,8 +285,8 @@ export default function ContactForm() {
 
                 {/* Business Hours */}
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <FaClock className="text-blue-600 text-xl" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+                    <FaClock className="text-primary-600 text-xl" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Business Hours</h3>
@@ -304,7 +304,7 @@ export default function ContactForm() {
                         href={CONTACT_INFO.socialMedia.facebook}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
+                        className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center hover:bg-primary-700 transition-colors"
                       >
                         <FaFacebook className="text-white" />
                       </a>
@@ -324,7 +324,7 @@ export default function ContactForm() {
                         href={CONTACT_INFO.socialMedia.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-800 transition-colors"
+                        className="w-10 h-10 bg-primary-700 rounded-full flex items-center justify-center hover:bg-primary-800 transition-colors"
                       >
                         <FaLinkedin className="text-white" />
                       </a>
@@ -334,7 +334,7 @@ export default function ContactForm() {
                         href={CONTACT_INFO.socialMedia.twitter}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-10 h-10 bg-sky-500 rounded-full flex items-center justify-center hover:bg-sky-600 transition-colors"
+                        className="w-10 h-10 bg-primary-500 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors"
                       >
                         <FaTwitter className="text-white" />
                       </a>
