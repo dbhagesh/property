@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { Button } from "@/components/ui/Button";
 import { Select } from "@/components/ui/Input";
 import { CONTACT_INFO, getWhatsAppUrl } from "@/constants/contact";
@@ -188,7 +188,7 @@ export const HeroSection = () => {
                     key={idx}
                     className={`relative ${idx === 0 ? 'h-48' : 'h-64'} rounded-lg overflow-hidden shadow-medium bg-secondary-200`}
                   >
-                    <Image
+                    <OptimizedImage
                       src={content.propertyShowcase[idx].image}
                       alt={content.propertyShowcase[idx].title}
                       fill
@@ -196,7 +196,6 @@ export const HeroSection = () => {
                       className="object-cover hover:scale-110 transition-transform duration-300"
                       priority={idx === 0}
                       loading={idx === 0 ? undefined : "lazy"}
-                      unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                     <div className="absolute bottom-4 left-4 text-white">
@@ -212,14 +211,13 @@ export const HeroSection = () => {
                     key={idx}
                     className={`relative ${idx === 2 ? 'h-64' : 'h-48'} rounded-lg overflow-hidden shadow-medium bg-secondary-200`}
                   >
-                    <Image
+                    <OptimizedImage
                       src={content.propertyShowcase[idx].image}
                       alt={content.propertyShowcase[idx].title}
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover hover:scale-110 transition-transform duration-300"
                       loading="lazy"
-                      unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                     <div className="absolute bottom-4 left-4 text-white">

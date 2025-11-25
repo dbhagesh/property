@@ -1,6 +1,6 @@
 import { HTMLAttributes, forwardRef } from "react";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import Link from "next/link";
 import { FaMapMarkerAlt, FaRupeeSign, FaHome, FaChartLine } from "react-icons/fa";
 
@@ -92,13 +92,12 @@ export const AreaCard: React.FC<AreaCardProps> = ({
       <Card variant="elevated" className="group cursor-pointer h-full">
         <div className="relative h-48 overflow-hidden bg-secondary-200">
           {imageUrl && (
-            <Image
+            <OptimizedImage
               src={imageUrl}
               alt={`Properties in ${name}, ${city}`}
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="object-cover group-hover:scale-110 transition-transform duration-300"
-              unoptimized
             />
           )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -179,13 +178,12 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
     <Card variant="elevated" className="group cursor-pointer">
       <div className="relative h-56 overflow-hidden bg-secondary-200">
         {imageUrl && (
-          <Image
+          <OptimizedImage
             src={imageUrl}
             alt={title}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-cover group-hover:scale-105 transition-transform duration-300"
-            unoptimized
           />
         )}
         {isNew && (

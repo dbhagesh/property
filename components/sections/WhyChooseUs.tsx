@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { CONTACT_INFO } from "@/constants/contact";
 import { getWhyChooseUsContent } from "@/lib/data/home-content";
 import { Button } from "@/components/ui/Button";
@@ -149,14 +149,13 @@ export const WhyChooseUs = () => {
           >
             {/* Main Image */}
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-hard bg-secondary-200">
-              <Image
+              <OptimizedImage
                 src="/images/why-choose-us.jpg"
                 alt="Mahadev Real Estate Office"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
                 loading="lazy"
-                unoptimized
               />
 
               {/* Overlay Stats Card */}

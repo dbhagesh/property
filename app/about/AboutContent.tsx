@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { CONTACT_INFO } from "@/constants/contact";
 import { Button } from "@/components/ui/Button";
 import {
@@ -157,14 +157,13 @@ export default function AboutContent() {
               transition={{ duration: 0.6 }}
               className="relative h-96 lg:h-full rounded-lg overflow-hidden shadow-xl bg-secondary-200"
             >
-              <Image
+              <OptimizedImage
                 src="/images/office.jpg"
                 alt="Mahadev Real Estate Office"
                 fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                   loading="lazy"
-                  unoptimized
                 />
             </motion.div>
           </div>
@@ -227,14 +226,13 @@ export default function AboutContent() {
               >
                 <div className="relative h-64 bg-secondary-200">
                   {member.image && (
-                    <Image
+                    <OptimizedImage
                       src={member.image}
                       alt={member.name}
                       fill
                       sizes="(max-width: 768px) 100vw, 25vw"
                       className="object-cover"
                       loading="lazy"
-                      unoptimized
                     />
                   )}
                 </div>
