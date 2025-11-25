@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
 import { AREAS } from "@/constants/areas";
@@ -84,8 +85,14 @@ export const Header = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3">
-              <div className="relative h-10 w-10 bg-primary-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">MR</span>
+              <div className="relative h-12 w-12 flex-shrink-0">
+                <Image
+                  src="/images/logo.png"
+                  alt="Mahadev Real Estate Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
               <div>
                 <h1 className="font-heading font-bold text-xl text-secondary-900">

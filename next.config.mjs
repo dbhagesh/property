@@ -7,10 +7,11 @@ const nextConfig = {
   // Base path for GitHub Pages (update this with your repo name)
   // For example: if your repo is 'username.github.io/property-website', use '/property-website'
   // If deploying to username.github.io (root), leave basePath empty
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/property',
+  // For local development, set NEXT_PUBLIC_BASE_PATH="" in .env
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
 
   // Asset prefix for GitHub Pages
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '/property',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
 
   // React strict mode for better error handling
   reactStrictMode: true,
