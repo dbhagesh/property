@@ -42,7 +42,7 @@ export default function PropertyCard({ property, viewMode = 'grid' }: PropertyCa
 
   const mainImage = property.images && property.images.length > 0
     ? property.images[0]
-    : '/images/placeholder-property.jpg';
+    : '/images/placeholder-property.webp';
 
   if (viewMode === 'list') {
     return (

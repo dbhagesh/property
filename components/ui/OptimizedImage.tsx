@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 
 interface OptimizedImageProps {
@@ -16,8 +14,9 @@ interface OptimizedImageProps {
 }
 
 /**
- * Optimized Image component that uses WebP with JPEG/PNG fallback
- * Uses browser's native picture element for zero JavaScript overhead
+ * Optimized Image component for WebP images
+ * Simple wrapper around Next.js Image with sensible defaults
+ * All images are pre-converted to WebP format via scripts/convert-to-webp.js
  */
 export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   src,
@@ -31,12 +30,8 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   sizes,
   quality = 80,
 }) => {
-  // Generate WebP path from original image path
-  const webpSrc = src.replace(/\.(jpg|jpeg|png)$/i, ".webp");
-  const hasWebP = webpSrc !== src;
-
   const imageProps = {
-    src: hasWebP ? webpSrc : src,
+    src,
     alt,
     className,
     unoptimized: true,

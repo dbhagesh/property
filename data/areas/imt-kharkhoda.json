@@ -6,7 +6,7 @@
   "district": "Sonipat",
   "state": "Haryana",
   "description": "IMT Kharkhoda is a rapidly developing Industrial Model Township in Haryana, strategically located just 40 km from Delhi. This government-planned industrial hub offers excellent connectivity via NH-44 and KMP Expressway, making it one of the most sought-after locations for industrial investments in North India.",
-  "imageUrl": "/images/areas/imt-kharkhoda.jpg",
+  "imageUrl": "/images/areas/imt-kharkhoda.webp",
   "propertyCount": 25,
   "priceRangeMin": 4500000,
   "priceRangeMax": 80000000,
@@ -144,9 +144,9 @@
     "KMP Expressway"
   ],
   "images": {
-    "featured": "/images/areas/imt-kharkhoda.jpg",
+    "featured": "/images/areas/imt-kharkhoda.webp",
     "gallery": [
-      "/images/areas/imt-kharkhoda.jpg"
+      "/images/areas/imt-kharkhoda.webp"
     ]
   },
   "seo": {

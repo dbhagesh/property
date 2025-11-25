@@ -72,7 +72,7 @@ export default function SearchResults() {
           description: 'Luxury 3BHK apartment with modern amenities, excellent connectivity, and prime location.',
           type: 'property' as const,
           url: '/properties/3bhk-sector-45',
-          image: '/images/properties/prop-1.jpg',
+          image: '/images/properties/prop-1.webp',
           metadata: {
             startingPrice: '₹1.2 Crores'
           }
@@ -83,7 +83,7 @@ export default function SearchResults() {
           description: 'Prime 200 sq. yards industrial plot in IMT Kharkhoda with excellent NH-44 connectivity.',
           type: 'property' as const,
           url: '/properties/industrial-plot-imt-kharkhoda',
-          image: '/images/properties/prop-2.jpg',
+          image: '/images/properties/prop-2.webp',
           metadata: {
             startingPrice: '₹45 Lakhs'
           }
@@ -243,7 +243,7 @@ export default function SearchResults() {
                           alt={result.title}
                           className="w-full h-full object-cover"
                           onError={(e) => {
-                            e.currentTarget.src = '/images/placeholder-property.jpg';
+                            e.currentTarget.src = '/images/placeholder-property.webp';
                           }}
                         />
                       </div>

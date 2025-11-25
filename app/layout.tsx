@@ -98,7 +98,7 @@ export default function RootLayout({
         {/* Favicons */}
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.webp" />
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="font-sans antialiased bg-white text-secondary-900">

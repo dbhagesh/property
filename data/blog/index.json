@@ -5,7 +5,7 @@
       "title": "new post",
       "slug": "new-post",
       "excerpt": "asd",
-      "featuredImage": "/images/blog/new-post.jpg",
+      "featuredImage": "/images/blog/new-post.webp",
       "author": {
         "id": "cmhxvfb2200001e94mn0s3n2t",
         "name": "Admin User"
@@ -20,7 +20,7 @@
       "title": "Test Blog Post",
       "slug": "test-blog-post",
       "excerpt": "Test excerpt",
-      "featuredImage": "/images/blog/test-blog-post.jpg",
+      "featuredImage": "/images/blog/test-blog-post.webp",
       "author": {
         "id": "cmhxvfb2200001e94mn0s3n2t",
         "name": "Admin User"

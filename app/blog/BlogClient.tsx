@@ -142,11 +142,11 @@ export default function BlogClient() {
                   <div className="md:w-1/2">
                     <div className="h-64 md:h-full bg-gray-200">
                       <img
-                        src={filteredPosts[0].featuredImage || '/images/blog/default-blog.jpg'}
+                        src={filteredPosts[0].featuredImage || '/images/blog/default-blog.webp'}
                         alt={filteredPosts[0].title}
                         className="w-full h-full object-cover"
                         onError={(e) => {
-                          e.currentTarget.src = '/images/blog/default-blog.jpg';
+                          e.currentTarget.src = '/images/blog/default-blog.webp';
                         }}
                       />
                     </div>
@@ -210,11 +210,11 @@ export default function BlogClient() {
                   >
                     <div className="h-48 bg-gray-200">
                       <img
-                        src={post.featuredImage || '/images/blog/default-blog.jpg'}
+                        src={post.featuredImage || '/images/blog/default-blog.webp'}
                         alt={post.title}
                         className="w-full h-full object-cover"
                         onError={(e) => {
-                          e.currentTarget.src = '/images/blog/default-blog.jpg';
+                          e.currentTarget.src = '/images/blog/default-blog.webp';
                         }}
                       />
                     </div>

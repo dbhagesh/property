@@ -6,7 +6,7 @@
   "district": "Jhajjar",
   "state": "Haryana",
   "description": "Bahadurgarh is a rapidly growing industrial city in Haryana, located just 25 km from Delhi. Known as the 'Gateway to Haryana', it offers excellent connectivity through metro, highways, and railways. The city is experiencing significant real estate growth with both industrial and residential developments.",
-  "imageUrl": "/images/areas/bahadurgarh.jpg",
+  "imageUrl": "/images/areas/bahadurgarh.webp",
   "propertyCount": 18,
   "priceRangeMin": 3500000,
   "priceRangeMax": 60000000,
@@ -156,9 +156,9 @@
     "Bahadurgarh City Center"
   ],
   "images": {
-    "featured": "/images/areas/bahadurgarh.jpg",
+    "featured": "/images/areas/bahadurgarh.webp",
     "gallery": [
-      "/images/areas/bahadurgarh.jpg"
+      "/images/areas/bahadurgarh.webp"
     ]
   },
   "seo": {

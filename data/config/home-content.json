@@ -18,22 +18,22 @@
       {
         "title": "IMT Kharkhoda Plots",
         "startingPrice": "₹45 Lakhs",
-        "image": "/images/hero/property-1.jpg"
+        "image": "/images/hero/property-1.webp"
       },
       {
         "title": "DDJAY Plots",
         "startingPrice": "₹15 Lakhs",
-        "image": "/images/hero/property-2.jpg"
+        "image": "/images/hero/property-2.webp"
       },
       {
         "title": "Industrial Land",
         "subtitle": "Prime Locations",
-        "image": "/images/hero/property-3.jpg"
+        "image": "/images/hero/property-3.webp"
       },
       {
         "title": "Agriculture Land",
         "startingPrice": "₹25 Lakhs",
-        "image": "/images/hero/property-4.jpg"
+        "image": "/images/hero/property-4.webp"
       }
     ],
     "newListingCard": {
@@ -105,7 +105,7 @@
         "suffix": "%"
       }
     ],
-    "image": "/images/why-choose-us.jpg"
+    "image": "/images/why-choose-us.webp"
   },
   "services": {
     "badge": "Our Services",

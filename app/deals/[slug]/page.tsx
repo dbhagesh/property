@@ -70,7 +70,7 @@ export function generateMetadata({ params }: AreaPageProps): Metadata {
   const metaTitle = area.seo?.metaTitle || seo.title;
   const metaDescription = area.seo?.metaDescription || seo.description;
   const metaKeywords = area.seo?.keywords || seo.keywords;
-  const featuredImage = area.images?.featured || '/images/areas/default.jpg';
+  const featuredImage = area.images?.featured || '/images/areas/default.webp';
 
   return {
     title: metaTitle,

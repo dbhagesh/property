@@ -4,7 +4,7 @@ export const SEO_CONFIG = {
   siteName: SITE_NAME,
   siteDescription: SITE_DESCRIPTION,
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://mahadevrealtors.com",
-  defaultImage: "/images/og-image.jpg",
+  defaultImage: "/images/og-image.webp",
   twitterHandle: "@mahadevrealtors",
 
   // Default SEO values
@@ -75,7 +75,7 @@ export const getOrganizationSchema = () => ({
   name: SEO_CONFIG.siteName,
   description: SEO_CONFIG.siteDescription,
   url: SEO_CONFIG.siteUrl,
-  logo: `${SEO_CONFIG.siteUrl}/images/logo.png`,
+  logo: `${SEO_CONFIG.siteUrl}/images/logo.webp`,
   image: SEO_CONFIG.defaultImage,
   telephone: SEO_CONFIG.contact.telephone,
   email: SEO_CONFIG.contact.email,

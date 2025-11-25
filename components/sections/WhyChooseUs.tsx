@@ -150,7 +150,7 @@ export const WhyChooseUs = () => {
             {/* Main Image */}
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-hard bg-secondary-200">
               <OptimizedImage
-                src="/images/why-choose-us.jpg"
+                src="/images/why-choose-us.webp"
                 alt="Mahadev Real Estate Office"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

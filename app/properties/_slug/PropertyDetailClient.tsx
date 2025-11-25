@@ -82,7 +82,7 @@ export default function PropertyDetailClient({ property, similarProperties }: Pr
 
   const images = property.images && property.images.length > 0
     ? property.images
-    : ['/images/placeholder-property.jpg'];
+    : ['/images/placeholder-property.webp'];
 
   return (
     <div className="min-h-screen bg-white">

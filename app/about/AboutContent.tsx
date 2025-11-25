@@ -50,14 +50,14 @@ export default function AboutContent() {
     {
       name: "Arvind",
       role: "Co-Founder",
-      image: "/images/team/arvind.jpg",
+      image: "/images/team/arvind.webp",
       experience: "15+ years",
       phone: CONTACT_INFO.primaryPhone,
     },
     {
       name: "Lokesh",
       role: "Co-Founder",
-      image: "/images/team/lokesh.jpg",
+      image: "/images/team/lokesh.webp",
       experience: "15+ years",
       phone: CONTACT_INFO.secondaryPhone,
     },
@@ -158,7 +158,7 @@ export default function AboutContent() {
               className="relative h-96 lg:h-full rounded-lg overflow-hidden shadow-xl bg-secondary-200"
             >
               <OptimizedImage
-                src="/images/office.jpg"
+                src="/images/office.webp"
                 alt="Mahadev Real Estate Office"
                 fill
                   sizes="(max-width: 768px) 100vw, 50vw"
