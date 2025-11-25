@@ -87,15 +87,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <head>
-        {/* Resource Hints for Performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Resource Hints for Performance - GA preconnect removed, fonts are self-hosted by Next.js */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
-        {/* Preload Critical Images */}
+        {/* Preload Critical Images - Only WebP for faster LCP */}
         <link rel="preload" as="image" href="/images/logo.svg" fetchPriority="high" />
-        <link rel="preload" as="image" href="/images/hero/property-1.jpg" fetchPriority="high" />
+        <link rel="preload" as="image" href="/images/hero/property-1.webp" fetchPriority="high" imageSrcSet="/images/hero/property-1.webp" imageSizes="(max-width: 768px) 100vw, 50vw" />
 
         {/* Favicons */}
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
