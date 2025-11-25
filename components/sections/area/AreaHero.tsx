@@ -20,7 +20,7 @@ interface AreaHeroProps {
 
 export const AreaHero: React.FC<AreaHeroProps> = ({ area }) => {
   return (
-    <section className="relative bg-gradient-to-br from-primary-50 to-white">
+    <section className="relative bg-gradient-to-br from-secondary-50 to-white">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 h-96 lg:h-[500px] bg-secondary-200">
         {area.imageUrl && (
@@ -47,7 +47,7 @@ export const AreaHero: React.FC<AreaHeroProps> = ({ area }) => {
         >
           {/* Location Badge */}
           <div className="inline-flex items-center gap-2 bg-white/90 backdrop-blur-sm text-secondary-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <FaMapMarkerAlt className="text-primary-600" />
+            <FaMapMarkerAlt className="text-accent-600" />
             {area.city}, {area.state}
           </div>
 
@@ -69,7 +69,7 @@ export const AreaHero: React.FC<AreaHeroProps> = ({ area }) => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="bg-white/95 backdrop-blur-sm rounded-lg p-4"
             >
-              <div className="flex items-center gap-2 text-primary-600 mb-1">
+              <div className="flex items-center gap-2 text-accent-600 mb-1">
                 <FaHome />
                 <span className="text-sm font-medium">Properties</span>
               </div>
@@ -99,7 +99,7 @@ export const AreaHero: React.FC<AreaHeroProps> = ({ area }) => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="bg-white/95 backdrop-blur-sm rounded-lg p-4"
             >
-              <div className="flex items-center gap-2 text-primary-600 mb-1">
+              <div className="flex items-center gap-2 text-accent-600 mb-1">
                 <FaBuilding />
                 <span className="text-sm font-medium">Popular For</span>
               </div>
@@ -114,7 +114,7 @@ export const AreaHero: React.FC<AreaHeroProps> = ({ area }) => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="bg-white/95 backdrop-blur-sm rounded-lg p-4"
             >
-              <div className="flex items-center gap-2 text-primary-600 mb-1">
+              <div className="flex items-center gap-2 text-accent-600 mb-1">
                 <FaMapMarkerAlt />
                 <span className="text-sm font-medium">Nearby</span>
               </div>

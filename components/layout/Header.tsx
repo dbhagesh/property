@@ -55,20 +55,20 @@ export const Header = () => {
         )}
       >
         {/* Top Bar - Desktop Only */}
-        <div className="hidden lg:block bg-primary-600 text-white py-2">
+        <div className="hidden lg:block bg-secondary-800 text-secondary-200 py-2">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between text-sm">
               <div className="flex items-center gap-6">
                 <a
                   href={`tel:${CONTACT_INFO.primaryPhone}`}
-                  className="flex items-center gap-2 hover:text-primary-100 transition-colors"
+                  className="flex items-center gap-2 hover:text-white transition-colors"
                 >
                   <FaPhone className="text-xs" />
                   {CONTACT_INFO.primaryPhone}
                 </a>
                 <a
                   href={`mailto:${CONTACT_INFO.primaryEmail}`}
-                  className="hover:text-primary-100 transition-colors"
+                  className="hover:text-white transition-colors"
                 >
                   {CONTACT_INFO.primaryEmail}
                 </a>
