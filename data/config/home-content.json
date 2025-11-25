@@ -1,11 +1,11 @@
 {
   "hero": {
-    "badge": "#1 Property Dealer in Haryana",
+    "badge": "#1 Property Dealer in Kharkhoda",
     "title": {
       "line1": "Find Your Dream",
       "highlighted": "Property",
       "line2": "in",
-      "highlightedCity": "Haryana"
+      "highlightedCity": "Kharkhoda"
     },
     "description": "Your trusted partner for buying, selling, and renting properties. Get the best deals with expert guidance.",
     "searchPlaceholder": "Select an area",
@@ -45,13 +45,13 @@
     "badge": "Why Choose Us",
     "title": "Your Trusted",
     "titleHighlighted": "Property Partner",
-    "titleSuffix": "in Haryana",
-    "description": "With over 10 years of experience in Haryana real estate market, we specialize in IMT Kharkhoda industrial plots, DDJAY plots, and agricultural land.",
+    "titleSuffix": "in Kharkhoda",
+    "description": "With over 10 years of experience in Kharkhoda real estate market, we specialize in IMT Kharkhoda industrial plots, DDJAY plots, and agricultural land.",
     "features": [
       {
         "icon": "award",
         "title": "10+ Years Experience",
-        "description": "Decade of expertise in Haryana real estate market specializing in IMT Kharkhoda and industrial properties",
+        "description": "Decade of expertise in Kharkhoda real estate market specializing in IMT Kharkhoda and industrial properties",
         "color": "primary"
       },
       {

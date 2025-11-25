@@ -19,12 +19,12 @@ export const BRANDING = {
   alternativeTaglines: {
     professional: "Professional Real Estate Solutions",
     trusted: "Building Trust, Delivering Dreams",
-    haryana: "Haryana's Leading Property Dealer",
+    kharkhoda: "Kharkhoda's Leading Property Dealer",
     premium: "Your Gateway to Premium Properties",
   },
 
   // Full company description
-  description: "Mahadev Realtors is a leading property dealer in Haryana, specializing in residential and commercial properties across prime locations including IMT Kharkhoda, Bahadurgarh, Sonipat, and Rohtak.",
+  description: "Mahadev Realtors is a leading property dealer in Kharkhoda, specializing in residential and commercial properties across IMT Kharkhoda, Bahadurgarh, Sonipat, and Rohtak.",
 
   // Founder/Owner name
   founder: "Mahadev",

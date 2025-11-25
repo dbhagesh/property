@@ -1,7 +1,7 @@
 export const CONTACT_INFO = {
   // Company Information
   companyName: "Mahadev Real Estate",
-  tagline: "Your Trusted Property Partner in Haryana",
+  tagline: "Your Trusted Property Partner in Kharkhoda",
 
   // Contact Numbers
   primaryPhone: "+91-9253648284",

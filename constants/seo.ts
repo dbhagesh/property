@@ -8,7 +8,7 @@ export const SEO_CONFIG = {
   twitterHandle: "@mahadevrealtors",
 
   // Default SEO values
-  defaultTitle: `Property Dealer in Haryana | IMT Kharkhoda, DDJAY Plots | ${SITE_NAME}`,
+  defaultTitle: `Property Dealer in Kharkhoda | IMT Kharkhoda, DDJAY Plots | ${SITE_NAME}`,
   titleTemplate: `%s | ${SITE_NAME}`,
 
   // Open Graph defaults
@@ -39,24 +39,24 @@ export const SEO_CONFIG = {
 // Page-specific SEO configurations
 export const PAGE_SEO = {
   home: {
-    title: "Property Dealer in Haryana | IMT Kharkhoda, DDJAY Plots",
-    description: `${SITE_NAME} - Trusted property dealer in Haryana specializing in IMT Kharkhoda industrial plots, DDJAY residential plots, agricultural land in Sonipat, Bahadurgarh, and Rohtak. 10+ years experience.`,
-    keywords: ["property dealer haryana", "IMT kharkhoda plots", "ddjay plots", "industrial land haryana", "bahadurgarh property", "sonipat property", "rohtak property"],
+    title: "Property Dealer in Kharkhoda | IMT Kharkhoda, DDJAY Plots",
+    description: `${SITE_NAME} - Trusted property dealer in Kharkhoda specializing in IMT Kharkhoda industrial plots, DDJAY residential plots, agricultural land in Sonipat, Bahadurgarh, and Rohtak. 10+ years experience.`,
+    keywords: ["property dealer kharkhoda", "IMT kharkhoda plots", "ddjay plots", "industrial land kharkhoda", "bahadurgarh property", "sonipat property", "rohtak property"],
   },
   about: {
-    title: "About Us - Leading Property Dealer in Haryana",
-    description: `${SITE_NAME} - Trusted property dealer in Haryana with 10+ years experience. Specializing in IMT Kharkhoda, DDJAY plots, industrial and agricultural land.`,
-    keywords: ["about mahadev realtors", "real estate company haryana", "property consultants kharkhoda"],
+    title: "About Us - Leading Property Dealer in Kharkhoda",
+    description: `${SITE_NAME} - Trusted property dealer in Kharkhoda with 10+ years experience. Specializing in IMT Kharkhoda, DDJAY plots, industrial and agricultural land.`,
+    keywords: ["about mahadev realtors", "real estate company kharkhoda", "property consultants kharkhoda"],
   },
   contact: {
-    title: "Contact Us - Property Dealer in Haryana",
-    description: `Get in touch with ${SITE_NAME} for all your property needs in Haryana. Office in Kharkhoda. Call +91-9899570270 or WhatsApp +91-7876748284.`,
+    title: "Contact Us - Property Dealer in Kharkhoda",
+    description: `Get in touch with ${SITE_NAME} for all your property needs in Kharkhoda. Office in Kharkhoda. Call +91-9253648284 or WhatsApp for assistance.`,
     keywords: ["contact property dealer", "mahadev realtors contact", "real estate office kharkhoda"],
   },
 };
 
 // Area page SEO template
-export const getAreaPageSEO = (areaName: string, city: string = "Haryana") => ({
+export const getAreaPageSEO = (areaName: string, city: string = "Kharkhoda") => ({
   title: `${areaName} Property Dealer | Real Estate in ${areaName}, ${city}`,
   description: `Looking for property in ${areaName}, ${city}? ${SITE_NAME} offers best deals on industrial plots, DDJAY residential plots, agricultural land, and commercial properties.`,
   keywords: [
