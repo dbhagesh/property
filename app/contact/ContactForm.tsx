@@ -377,7 +377,7 @@ export default function ContactForm() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Find Us</h2>
           <div className="aspect-w-16 aspect-h-9 md:aspect-h-6 rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.8!2d77.08!3d28.48!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDI4JzQ4LjAiTiA3N8KwMDQnNDguMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3488.7!2d76.8!3d29.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390da76201eaab55%3A0xc5648ea89474ddad!2sMahadev%20Real%20Estate!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%"
               height="400"
               style={{ border: 0 }}
@@ -385,7 +385,7 @@ export default function ContactForm() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="w-full h-full"
-              title="Office Location"
+              title="Mahadev Real Estate - Kharkhoda, Haryana"
             />
           </div>
         </div>
