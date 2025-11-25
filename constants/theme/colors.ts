@@ -167,24 +167,27 @@ export const activeTheme = forestGreenTheme;
 // ============================================================================
 
 export const colors = {
-  // Primary brand color (changes based on active theme)
+  // Primary brand color - USE SPARINGLY (only for main CTAs, important highlights)
+  // Good for: Main buttons, key navigation items, important badges
   primary: activeTheme.primary,
 
-  // Secondary colors (neutral grays - consistent across all themes)
+  // Secondary colors (neutral grays) - USE MOST OFTEN
+  // Good for: Text, backgrounds, borders, cards, most UI elements
   secondary: {
-    50: "#f8fafc",
-    100: "#f1f5f9",
-    200: "#e2e8f0",
-    300: "#cbd5e1",
-    400: "#94a3b8",
-    500: "#64748b",
-    600: "#475569",
-    700: "#334155",
-    800: "#1e293b",
-    900: "#0f172a",
+    50: "#f8fafc",   // Very light gray - backgrounds
+    100: "#f1f5f9",  // Light gray - subtle backgrounds
+    200: "#e2e8f0",  // Borders, dividers
+    300: "#cbd5e1",  // Disabled states, placeholders
+    400: "#94a3b8",  // Secondary text
+    500: "#64748b",  // Body text
+    600: "#475569",  // Dark text
+    700: "#334155",  // Headings
+    800: "#1e293b",  // Important headings
+    900: "#0f172a",  // Darkest text
   },
 
-  // Accent color (warm gold - complements most themes)
+  // Accent color (warm gold) - USE FOR SECONDARY ACTIONS
+  // Good for: Secondary buttons, hover states, highlights, badges
   accent: {
     50: "#fef3c7",
     100: "#fde68a",
@@ -196,6 +199,20 @@ export const colors = {
     700: "#92400e",
     800: "#78350f",
     900: "#451a03",
+  },
+
+  // Neutral colors (for balanced UI)
+  neutral: {
+    50: "#fafafa",
+    100: "#f5f5f5",
+    200: "#e5e5e5",
+    300: "#d4d4d4",
+    400: "#a3a3a3",
+    500: "#737373",
+    600: "#525252",
+    700: "#404040",
+    800: "#262626",
+    900: "#171717",
   },
 
   // Status colors (fixed for consistency)
