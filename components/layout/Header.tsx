@@ -88,10 +88,10 @@ export const Header = () => {
             <Link href="/" className="flex items-center gap-3">
               <div className="relative h-12 w-12 flex-shrink-0">
                 <Image
-                  src="/images/logo.png"
+                  src="/images/logo.svg"
                   alt={LOGO_ALT}
                   fill
-                  className="object-contain"
+                  className="object-contain text-primary-600"
                   priority
                 />
               </div>
