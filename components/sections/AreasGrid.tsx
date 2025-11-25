@@ -6,6 +6,7 @@ import { CONTACT_INFO } from "@/constants/contact";
 import { AreaCard } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { FaMapMarkedAlt, FaArrowRight } from "react-icons/fa";
+import areasData from "@/data/areas/index.json";
 
 interface Area {
   id: string;
@@ -18,30 +19,23 @@ interface Area {
   popularFor: string[];
 }
 
+// Transform areas data at module level
+const transformedAreas: Area[] = areasData.areas.map(area => ({
+  id: area.id,
+  name: area.name,
+  slug: area.slug,
+  city: area.city,
+  imageUrl: area.imageUrl,
+  propertyCount: area.propertyCount,
+  startingPrice: area.priceRangeMin
+    ? `₹${(area.priceRangeMin / 100000).toFixed(0)} Lakhs`
+    : '₹25 Lakhs',
+  popularFor: area.featured ? ['Featured Location'] : ['Prime Location']
+}));
+
 export const AreasGrid = () => {
-  const [areas, setAreas] = useState<Area[]>([]);
-  const [loading, setLoading] = useState(true);
   const [showAll, setShowAll] = useState(false);
-  const displayedAreas = showAll ? areas : areas.slice(0, 6);
-
-  useEffect(() => {
-    const fetchAreas = async () => {
-      try {
-        const response = await fetch('/api/areas');
-        const data = await response.json();
-        if (data.success && data.data) {
-          setAreas(data.data);
-        }
-      } catch (error) {
-        console.error('Error fetching areas:', error);
-        setAreas([]);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchAreas();
-  }, []);
+  const displayedAreas = showAll ? transformedAreas : transformedAreas.slice(0, 6);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -88,48 +82,30 @@ export const AreasGrid = () => {
         </motion.div>
 
         {/* Areas Grid */}
-        {loading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[...Array(6)].map((_, index) => (
-              <div key={index} className="animate-pulse">
-                <div className="bg-white rounded-xl shadow-md overflow-hidden">
-                  <div className="h-48 bg-gray-200"></div>
-                  <div className="p-6">
-                    <div className="h-4 bg-gray-200 rounded mb-2"></div>
-                    <div className="h-4 bg-gray-200 rounded mb-4 w-3/4"></div>
-                    <div className="h-3 bg-gray-200 rounded mb-2"></div>
-                    <div className="h-3 bg-gray-200 rounded w-1/2"></div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-          >
-            {displayedAreas.map((area) => (
-              <motion.div key={area.id} variants={itemVariants}>
-                <AreaCard
-                  name={area.name}
-                  slug={area.slug}
-                  city={area.city}
-                  imageUrl={area.imageUrl}
-                  propertyCount={area.propertyCount}
-                  startingPrice={area.startingPrice}
-                  popularFor={area.popularFor}
-                />
-              </motion.div>
-            ))}
-          </motion.div>
-        )}
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          {displayedAreas.map((area) => (
+            <motion.div key={area.id} variants={itemVariants}>
+              <AreaCard
+                name={area.name}
+                slug={area.slug}
+                city={area.city}
+                imageUrl={area.imageUrl}
+                propertyCount={area.propertyCount}
+                startingPrice={area.startingPrice}
+                popularFor={area.popularFor}
+              />
+            </motion.div>
+          ))}
+        </motion.div>
 
         {/* Show More/Less Button */}
-        {areas.length > 6 && (
+        {transformedAreas.length > 6 && (
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -143,7 +119,7 @@ export const AreasGrid = () => {
               onClick={() => setShowAll(!showAll)}
               rightIcon={<FaArrowRight className={`transform transition-transform ${showAll ? "rotate-90" : ""}`} />}
             >
-              {showAll ? "Show Less Areas" : `View All ${areas.length} Areas`}
+              {showAll ? "Show Less Areas" : `View All ${transformedAreas.length} Areas`}
             </Button>
           </motion.div>
         )}
