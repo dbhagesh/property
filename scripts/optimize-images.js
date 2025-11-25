@@ -1,147 +1,115 @@
 const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
+const glob = require('glob');
 
-// Configuration
+console.log('=�  Optimizing Images for Better Performance\n');
+console.log('=========================================\n');
+
+// Configuration for aggressive optimization
 const config = {
-  quality: 80,
-  maxWidth: 1920,
-  maxHeight: 1080,
-  webpQuality: 80,
-  jpegQuality: 80,
+  quality: 70, // Reduced from 80 for better compression
+  effort: 6,   // Maximum compression effort
+  maxWidth: 800,
+  maxHeight: 600,
 };
 
-// Image directories to process
-const imageDirs = [
-  'public/images/hero',
-  'public/images/areas',
-  'public/images/about',
-  'public/images',
-];
+// Find all WebP images
+function findAllImages() {
+  const patterns = [
+    'public/images/**/*.webp',
+  ];
+  const images = [];
+  patterns.forEach(pattern => {
+    const files = glob.sync(pattern, { cwd: process.cwd() });
+    images.push(...files);
+  });
 
-// Files to process (with specific settings)
-const priorityImages = [
-  { path: 'public/images/hero/property-1.jpg', maxWidth: 800, quality: 75 },
-  { path: 'public/images/hero/property-2.jpg', maxWidth: 800, quality: 75 },
-  { path: 'public/images/hero/property-3.jpg', maxWidth: 800, quality: 75 },
-  { path: 'public/images/hero/property-4.jpg', maxWidth: 800, quality: 75 },
-  { path: 'public/images/why-choose-us.jpg', maxWidth: 1200, quality: 75 },
-  { path: 'public/images/office.jpg', maxWidth: 1200, quality: 75 },
-  { path: 'public/images/areas/rohtak.jpg', maxWidth: 800, quality: 75 },
-  { path: 'public/images/areas/bahadurgarh.jpg', maxWidth: 800, quality: 75 },
-  { path: 'public/images/areas/imt-kharkhoda.jpg', maxWidth: 800, quality: 75 },
-  { path: 'public/images/areas/sonipat.jpg', maxWidth: 800, quality: 75 },
-  { path: 'public/images/about/hero.jpg', maxWidth: 1200, quality: 75 },
-  { path: 'public/images/about/story.jpg', maxWidth: 800, quality: 75 },
-];
+  // Exclude logos and icons (keep original quality)
+  return images.filter(img =>
+    !img.includes('logo') &&
+    !img.includes('icon')
+  );
+}
 
-async function optimizeImage(inputPath, options = {}) {
+async function optimizeImage(inputPath) {
+  const fullPath = path.join(process.cwd(), inputPath);
+  const parsedPath = path.parse(fullPath);
+
   try {
-    const fullPath = path.join(process.cwd(), inputPath);
+    const image = sharp(fullPath);
+    const metadata = await image.metadata();
 
-    // Check if file exists
-    if (!fs.existsSync(fullPath)) {
-      console.log(`⏭️  Skipping ${inputPath} (not found)`);
-      return;
-    }
+    console.log(`\n=� ${path.basename(fullPath)}`);
+    console.log(`   Original: ${metadata.width}x${metadata.height}, ${(metadata.size / 1024).toFixed(1)} KB`);
 
-    const fileStats = fs.statSync(fullPath);
-    const originalSize = (fileStats.size / 1024).toFixed(2);
+    // Calculate new dimensions while maintaining aspect ratio
+    const aspectRatio = metadata.width / metadata.height;
+    let newWidth = Math.min(metadata.width, config.maxWidth);
+    let newHeight = Math.min(metadata.height, config.maxHeight);
 
-    // Get image metadata
-    const metadata = await sharp(fullPath).metadata();
-
-    const maxWidth = options.maxWidth || config.maxWidth;
-    const maxHeight = options.maxHeight || config.maxHeight;
-    const quality = options.quality || config.quality;
-
-    // Calculate new dimensions maintaining aspect ratio
-    let newWidth = metadata.width;
-    let newHeight = metadata.height;
-
-    if (newWidth > maxWidth) {
-      newHeight = Math.round((maxWidth / newWidth) * newHeight);
-      newWidth = maxWidth;
-    }
-
-    if (newHeight > maxHeight) {
-      newWidth = Math.round((maxHeight / newHeight) * newWidth);
-      newHeight = maxHeight;
-    }
-
-    // Create backup
-    const backupPath = fullPath.replace(/\.(jpg|jpeg|png)$/i, '.backup.$1');
-    if (!fs.existsSync(backupPath)) {
-      fs.copyFileSync(fullPath, backupPath);
-    }
-
-    // Optimize based on format
-    if (inputPath.endsWith('.png')) {
-      // Optimize PNG
-      await sharp(fullPath)
-        .resize(newWidth, newHeight, {
-          fit: 'inside',
-          withoutEnlargement: true,
-        })
-        .png({ quality: 80, compressionLevel: 9 })
-        .toFile(fullPath + '.tmp');
+    // Maintain aspect ratio
+    if (newWidth / newHeight > aspectRatio) {
+      newWidth = Math.round(newHeight * aspectRatio);
     } else {
-      // Optimize JPEG
-      await sharp(fullPath)
-        .resize(newWidth, newHeight, {
-          fit: 'inside',
-          withoutEnlargement: true,
-        })
-        .jpeg({ quality, progressive: true, mozjpeg: true })
-        .toFile(fullPath + '.tmp');
+      newHeight = Math.round(newWidth / aspectRatio);
     }
 
-    // Also create WebP version
-    const webpPath = fullPath.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+    const tempPath = path.join(parsedPath.dir, `${parsedPath.name}.temp.webp`);
+
     await sharp(fullPath)
       .resize(newWidth, newHeight, {
         fit: 'inside',
-        withoutEnlargement: true,
+        withoutEnlargement: true
       })
-      .webp({ quality: options.webpQuality || config.webpQuality })
-      .toFile(webpPath);
+      .webp({
+        quality: config.quality,
+        effort: config.effort,
+        smartSubsample: true,
+      })
+      .toFile(tempPath);
 
-    // Replace original with optimized
-    fs.renameSync(fullPath + '.tmp', fullPath);
+    const tempStats = fs.statSync(tempPath);
+    const originalStats = fs.statSync(fullPath);
+    const saved = originalStats.size - tempStats.size;
 
-    // Get new size
-    const newStats = fs.statSync(fullPath);
-    const newSize = (newStats.size / 1024).toFixed(2);
-    const webpStats = fs.existsSync(webpPath) ? fs.statSync(webpPath) : null;
-    const webpSize = webpStats ? (webpStats.size / 1024).toFixed(2) : 'N/A';
-    const savings = ((1 - newSize / originalSize) * 100).toFixed(1);
-
-    console.log(`✅ ${inputPath}`);
-    console.log(`   Original: ${originalSize}KB → Optimized: ${newSize}KB → WebP: ${webpSize}KB`);
-    console.log(`   Savings: ${savings}% | Dimensions: ${newWidth}x${newHeight}`);
-
+    if (saved > 1024) { // Only replace if we save at least 1KB
+      fs.unlinkSync(fullPath);
+      fs.renameSync(tempPath, fullPath);
+      console.log(`    Optimized: ${newWidth}x${newHeight}, ${(tempStats.size / 1024).toFixed(1)} KB (saved ${(saved / 1024).toFixed(1)} KB)`);
+      return saved;
+    } else {
+      fs.unlinkSync(tempPath);
+      console.log(`   �  Kept original (already optimized)`);
+      return 0;
+    }
   } catch (error) {
-    console.error(`❌ Error processing ${inputPath}:`, error.message);
+    console.error(`   L Error: ${error.message}`);
+    return 0;
   }
 }
 
-async function optimizeAllImages() {
-  console.log('🖼️  Starting image optimization...\n');
+async function main() {
+  const images = findAllImages();
 
-  // Process priority images first
-  console.log('📌 Processing priority images:\n');
-  for (const img of priorityImages) {
-    await optimizeImage(img.path, {
-      maxWidth: img.maxWidth,
-      quality: img.quality,
-      webpQuality: img.quality,
-    });
+  console.log(`Found ${images.length} images to optimize\n`);
+
+  let totalSaved = 0;
+  let processedCount = 0;
+
+  for (const imagePath of images) {
+    const saved = await optimizeImage(imagePath);
+    totalSaved += saved;
+    processedCount++;
   }
 
-  console.log('\n✨ Image optimization complete!\n');
-  console.log('📝 Original files backed up with .backup extension');
-  console.log('🌐 WebP versions created for modern browsers');
+  console.log('\n=========================================');
+  console.log(`\n( Optimization Complete!`);
+  console.log(`   Images processed: ${processedCount}`);
+  console.log(`   Total saved: ${(totalSaved / 1024).toFixed(1)} KB`);
+  if (processedCount > 0) {
+    console.log(`   Average per image: ${(totalSaved / processedCount / 1024).toFixed(1)} KB\n`);
+  }
 }
 
-// Run optimization
-optimizeAllImages().catch(console.error);
+main().catch(console.error);

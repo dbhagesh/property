@@ -10,8 +10,8 @@ import { SEO_CONFIG } from "@/constants/seo";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
-  display: "swap",
-  preload: true,
+  display: "optional", // Use optional for better performance (reduces layout shift)
+  preload: false, // Disable preload to reduce render blocking
   fallback: ["system-ui", "arial"],
 });
 
@@ -19,8 +19,8 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
-  display: "swap",
-  preload: true,
+  display: "optional", // Use optional for better performance (reduces layout shift)
+  preload: false, // Disable preload to reduce render blocking
   fallback: ["system-ui", "arial"],
 });
 
