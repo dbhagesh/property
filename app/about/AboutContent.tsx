@@ -12,8 +12,6 @@ import {
   FaTrophy,
   FaPhoneAlt,
   FaWhatsapp,
-  FaLinkedin,
-  FaEnvelope,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -54,16 +52,14 @@ export default function AboutContent() {
       role: "Co-Founder",
       image: "/images/team/arvind.jpg",
       experience: "15+ years",
-      linkedin: "https://linkedin.com",
-      email: CONTACT_INFO.primaryEmail,
+      phone: CONTACT_INFO.primaryPhone,
     },
     {
       name: "Lokesh",
       role: "Co-Founder",
       image: "/images/team/lokesh.jpg",
       experience: "15+ years",
-      linkedin: "https://linkedin.com",
-      email: CONTACT_INFO.primaryEmail,
+      phone: CONTACT_INFO.secondaryPhone,
     },
   ];
 
@@ -244,22 +240,15 @@ export default function AboutContent() {
                   <h3 className="text-xl font-semibold text-secondary-900 mb-1">{member.name}</h3>
                   <p className="text-primary-600 font-medium mb-2">{member.role}</p>
                   <p className="text-sm text-secondary-600 mb-4">{member.experience} Experience</p>
-                  <div className="flex space-x-3">
-                    <a
-                      href={member.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-secondary-400 hover:text-primary-600 transition-colors"
-                    >
-                      <FaLinkedin className="w-5 h-5" />
-                    </a>
-                    <a
-                      href={`mailto:${member.email}`}
-                      className="text-secondary-400 hover:text-primary-600 transition-colors"
-                    >
-                      <FaEnvelope className="w-5 h-5" />
-                    </a>
-                  </div>
+                  <Button
+                    onClick={() => window.open(`tel:${member.phone}`, "_self")}
+                    variant="outline"
+                    size="sm"
+                    leftIcon={<FaPhoneAlt />}
+                    fullWidth
+                  >
+                    Call Now
+                  </Button>
                 </div>
               </motion.div>
             ))}
