@@ -31,16 +31,31 @@
     "busStand": "Kharkhoda Bus Stand (3 km)"
   },
   "amenities": [
-    "Industrial Power Supply (24/7)",
-    "Water Supply Network",
-    "Sewage Treatment Plant",
-    "Wide Roads (60-100 ft)",
-    "Street Lighting",
-    "Security Systems",
-    "Fire Safety Infrastructure",
-    "Commercial Centers",
-    "Banking Facilities",
-    "Warehousing Options"
+    {
+      "category": "Infrastructure",
+      "items": [
+        "Industrial Power Supply (24/7)",
+        "Water Supply Network",
+        "Sewage Treatment Plant",
+        "Wide Roads (60-100 ft)",
+        "Street Lighting"
+      ]
+    },
+    {
+      "category": "Safety & Security",
+      "items": [
+        "Security Systems",
+        "Fire Safety Infrastructure"
+      ]
+    },
+    {
+      "category": "Commercial Facilities",
+      "items": [
+        "Commercial Centers",
+        "Banking Facilities",
+        "Warehousing Options"
+      ]
+    }
   ],
   "nearbyPlaces": [
     {

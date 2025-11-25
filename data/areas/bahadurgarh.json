@@ -31,17 +31,42 @@
     "busStand": "Bahadurgarh Bus Stand (1 km)"
   },
   "amenities": [
-    "Metro Connectivity",
-    "24/7 Power Supply",
-    "Municipal Water Supply",
-    "Sewage System",
-    "Wide Roads",
-    "Street Lighting",
-    "Parks and Gardens",
-    "Schools and Colleges",
-    "Hospitals and Clinics",
-    "Shopping Complexes",
-    "Banks and ATMs"
+    {
+      "category": "Infrastructure",
+      "items": [
+        "Metro Connectivity",
+        "24/7 Power Supply",
+        "Municipal Water Supply",
+        "Sewage System",
+        "Wide Roads",
+        "Street Lighting"
+      ]
+    },
+    {
+      "category": "Lifestyle & Recreation",
+      "items": [
+        "Parks and Gardens",
+        "Shopping Complexes"
+      ]
+    },
+    {
+      "category": "Educational Institutions",
+      "items": [
+        "Schools and Colleges"
+      ]
+    },
+    {
+      "category": "Healthcare Facilities",
+      "items": [
+        "Hospitals and Clinics"
+      ]
+    },
+    {
+      "category": "Banking & Finance",
+      "items": [
+        "Banks and ATMs"
+      ]
+    }
   ],
   "nearbyPlaces": [
     {

@@ -106,13 +106,19 @@ export function convertToLegacyArea(area: any): LegacyArea {
     amenitiesData = amenities;
   }
 
-  // Extract popular property types from amenities or use defaults
-  const popularFor = amenitiesData.popularFor
+  // Extract popular property types - check top-level first, then amenities
+  const popularFor = area.popularFor
+    || amenitiesData.popularFor
     || (Array.isArray(amenitiesData) ? amenitiesData.flatMap((a: any) => a.items).slice(0, 3) : null)
     || ['Residential', 'Commercial'];
 
-  const nearbyLandmarks = connectivityObj.landmarks || [];
-  const highlights = amenitiesData.highlights || connectivityObj.highlights || [];
+  const nearbyLandmarks = area.nearbyLandmarks
+    || connectivityObj.landmarks
+    || [];
+  const highlights = area.highlights
+    || amenitiesData.highlights
+    || connectivityObj.highlights
+    || [];
 
   return {
     id: area.id,

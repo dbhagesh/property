@@ -31,16 +31,41 @@
     "busStand": "Sonipat Bus Stand (1 km)"
   },
   "amenities": [
-    "District Hospital",
-    "Private Hospitals and Clinics",
-    "Schools and Universities",
-    "Shopping Malls and Markets",
-    "Banks and Financial Services",
-    "Government Offices",
-    "Sports Facilities",
-    "Parks and Gardens",
-    "24/7 Power Supply",
-    "Municipal Water Supply"
+    {
+      "category": "Healthcare Facilities",
+      "items": [
+        "District Hospital",
+        "Private Hospitals and Clinics"
+      ]
+    },
+    {
+      "category": "Educational Institutions",
+      "items": [
+        "Schools and Universities"
+      ]
+    },
+    {
+      "category": "Lifestyle & Recreation",
+      "items": [
+        "Shopping Malls and Markets",
+        "Sports Facilities",
+        "Parks and Gardens"
+      ]
+    },
+    {
+      "category": "Banking & Finance",
+      "items": [
+        "Banks and Financial Services"
+      ]
+    },
+    {
+      "category": "Infrastructure",
+      "items": [
+        "Government Offices",
+        "24/7 Power Supply",
+        "Municipal Water Supply"
+      ]
+    }
   ],
   "nearbyPlaces": [
     {

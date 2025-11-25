@@ -31,17 +31,42 @@
     "busStand": "Rohtak Bus Stand (1 km)"
   },
   "amenities": [
-    "PGIMS (Post Graduate Institute of Medical Sciences)",
-    "IIM Rohtak",
-    "Multiple Universities and Colleges",
-    "District Hospital",
-    "Shopping Malls and Markets",
-    "Sports Stadiums",
-    "Government Offices",
-    "Banks and Financial Services",
-    "Parks and Recreation Centers",
-    "24/7 Power Supply",
-    "Municipal Water Supply"
+    {
+      "category": "Healthcare Facilities",
+      "items": [
+        "PGIMS (Post Graduate Institute of Medical Sciences)",
+        "District Hospital"
+      ]
+    },
+    {
+      "category": "Educational Institutions",
+      "items": [
+        "IIM Rohtak",
+        "Multiple Universities and Colleges"
+      ]
+    },
+    {
+      "category": "Lifestyle & Recreation",
+      "items": [
+        "Shopping Malls and Markets",
+        "Sports Stadiums",
+        "Parks and Recreation Centers"
+      ]
+    },
+    {
+      "category": "Banking & Finance",
+      "items": [
+        "Banks and Financial Services"
+      ]
+    },
+    {
+      "category": "Infrastructure",
+      "items": [
+        "Government Offices",
+        "24/7 Power Supply",
+        "Municipal Water Supply"
+      ]
+    }
   ],
   "nearbyPlaces": [
     {
