@@ -4,9 +4,9 @@ export const CONTACT_INFO = {
   tagline: "Your Trusted Property Partner in Haryana",
 
   // Contact Numbers
-  primaryPhone: "+91-9899570270",
+  primaryPhone: "+91-9253648284",
   secondaryPhone: "+91-7876748284",
-  whatsappNumber: "917876748284", // Without + for WhatsApp API (Lokesh's number)
+  whatsappNumber: "919253648284", // Without + for WhatsApp API
 
   // Email Addresses
   primaryEmail: "mahadevrealestate99@gmail.com",
@@ -59,9 +59,9 @@ export const CONTACT_INFO = {
 
   // Quick Links for Contact
   quickLinks: {
-    callArvind: `tel:+91-9899570270`,
-    callLokesh: `tel:+91-7876748284`,
-    whatsapp: `https://wa.me/917876748284`,
+    callPrimary: `tel:+91-9253648284`,
+    callSecondary: `tel:+91-7876748284`,
+    whatsapp: `https://wa.me/919253648284`,
     email: `mailto:mahadevrealestate99@gmail.com`,
     directions: "https://goo.gl/maps/example", // Replace with actual URL
   },
@@ -74,7 +74,7 @@ export const CONTACT_INFO = {
       experience: "10+ years",
       specialization: "Industrial & Commercial Properties",
       image: "/images/team/arvind.jpg",
-      phone: "+91-9899570270",
+      phone: "+91-9253648284",
       email: "mahadevrealestate99@gmail.com",
     },
     {
@@ -158,4 +158,11 @@ export const formatPhoneNumber = (phone: string): string => {
 export const getFullAddress = (): string => {
   const { address } = CONTACT_INFO;
   return `${address.line1}, ${address.line2}, ${address.city}, ${address.state} - ${address.pincode}`;
+};
+
+// Helper function to get display phone numbers (both primary and secondary)
+export const getDisplayPhoneNumbers = (): string => {
+  const primary = CONTACT_INFO.primaryPhone.replace("+91-", "");
+  const secondary = CONTACT_INFO.secondaryPhone.replace("+91-", "");
+  return `${primary}, ${secondary}`;
 };

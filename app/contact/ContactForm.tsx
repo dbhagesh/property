@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { CONTACT_INFO, getFullAddress, getWhatsAppUrl } from "@/constants/contact";
+import { CONTACT_INFO, getFullAddress, getWhatsAppUrl, getDisplayPhoneNumbers } from "@/constants/contact";
 import { Button } from "@/components/ui/Button";
 import { Input, Textarea, Select } from "@/components/ui/Input";
 import {
@@ -238,12 +238,7 @@ export default function ContactForm() {
                     <h3 className="font-semibold text-gray-900 mb-1">Phone Numbers</h3>
                     <p className="text-gray-600">
                       <a href={`tel:${CONTACT_INFO.primaryPhone}`} className="hover:text-primary-600 transition-colors">
-                        {CONTACT_INFO.primaryPhone}
-                      </a>
-                    </p>
-                    <p className="text-gray-600">
-                      <a href={`tel:${CONTACT_INFO.secondaryPhone}`} className="hover:text-primary-600 transition-colors">
-                        {CONTACT_INFO.secondaryPhone}
+                        {getDisplayPhoneNumbers()}
                       </a>
                     </p>
                   </div>
@@ -278,7 +273,7 @@ export default function ContactForm() {
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-green-600 transition-colors"
                     >
-                      {CONTACT_INFO.primaryPhone}
+                      {CONTACT_INFO.primaryPhone.replace("+91-", "")}
                     </a>
                   </div>
                 </div>

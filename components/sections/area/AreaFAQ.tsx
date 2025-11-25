@@ -114,11 +114,11 @@ export const AreaFAQ: React.FC<AreaFAQProps> = ({ area }) => {
       <div className="mt-6 p-4 bg-primary-50 rounded-lg">
         <p className="text-sm text-primary-700">
           <strong>Have more questions?</strong> Our property experts are here to help.
-          Call us at {CONTACT_INFO.primaryPhone} or WhatsApp for instant assistance.
+          Call us at {getDisplayPhoneNumbers()} or WhatsApp for instant assistance.
         </p>
       </div>
     </motion.section>
   );
 };
 
-import { CONTACT_INFO } from "@/constants/contact";
+import { CONTACT_INFO, getDisplayPhoneNumbers } from "@/constants/contact";

@@ -7,7 +7,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/Button";
 import { AREAS } from "@/constants/areas";
-import { CONTACT_INFO, getWhatsAppUrl } from "@/constants/contact";
+import { CONTACT_INFO, getWhatsAppUrl, getDisplayPhoneNumbers } from "@/constants/contact";
 import { SITE_NAME, SITE_TAGLINE, LOGO_ALT } from "@/constants/branding";
 import {
   FaBars,
@@ -64,7 +64,7 @@ export const Header = () => {
                   className="flex items-center gap-2 hover:text-white transition-colors"
                 >
                   <FaPhone className="text-xs" />
-                  {CONTACT_INFO.primaryPhone}
+                  {getDisplayPhoneNumbers()}
                 </a>
                 <a
                   href={`mailto:${CONTACT_INFO.primaryEmail}`}

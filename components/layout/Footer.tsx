@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { CONTACT_INFO, getFullAddress } from "@/constants/contact";
+import { CONTACT_INFO, getFullAddress, getDisplayPhoneNumbers } from "@/constants/contact";
 import {
   FaFacebook,
   FaInstagram,
@@ -228,7 +228,7 @@ export const Footer = () => {
                   className="flex items-center gap-3 text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
                   <FaPhone className="text-accent-400 flex-shrink-0" />
-                  {CONTACT_INFO.primaryPhone}
+                  {getDisplayPhoneNumbers()}
                 </a>
               </li>
               <li>
