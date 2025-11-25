@@ -74,9 +74,9 @@ export const Testimonials = () => {
                     {getInitials(testimonials[currentIndex].name)}
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-semibold text-secondary-900">
+                    <h3 className="font-semibold text-secondary-900">
                       {testimonials[currentIndex].name}
-                    </h4>
+                    </h3>
                     <p className="text-sm text-secondary-600">
                       {testimonials[currentIndex].property} • {testimonials[currentIndex].location}
                     </p>
@@ -118,14 +118,18 @@ export const Testimonials = () => {
               <button
                 key={index}
                 onClick={() => goToTestimonial(index)}
-                className={cn(
-                  "w-2 h-2 rounded-full transition-all duration-300",
-                  currentIndex === index
-                    ? "w-8 bg-primary-600"
-                    : "bg-secondary-300 hover:bg-secondary-400"
-                )}
+                className="p-3 min-w-[44px] min-h-[44px] flex items-center justify-center"
                 aria-label={`Go to testimonial ${index + 1}`}
-              />
+              >
+                <span
+                  className={cn(
+                    "block rounded-full transition-all duration-300",
+                    currentIndex === index
+                      ? "w-8 h-3 bg-primary-600"
+                      : "w-3 h-3 bg-secondary-300 hover:bg-secondary-400"
+                  )}
+                />
+              </button>
             ))}
           </div>
         </div>

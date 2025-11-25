@@ -12,11 +12,14 @@ export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 }
 
 export const Input = forwardRef<HTMLInputElement, InputProps>(
-  ({ className, type = "text", label, error, helperText, leftIcon, rightIcon, ...props }, ref) => {
+  ({ className, type = "text", label, error, helperText, leftIcon, rightIcon, id, ...props }, ref) => {
+    // Generate a unique ID if not provided
+    const inputId = id || `input-${Math.random().toString(36).substr(2, 9)}`;
+
     return (
       <div className="w-full">
         {label && (
-          <label className="block text-sm font-medium text-secondary-700 mb-1">
+          <label htmlFor={inputId} className="block text-sm font-medium text-secondary-700 mb-1">
             {label}
             {props.required && <span className="text-error-500 ml-1">*</span>}
           </label>
@@ -28,6 +31,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
             </div>
           )}
           <input
+            id={inputId}
             type={type}
             className={cn(
               "block w-full rounded-lg border bg-white px-3 py-2.5 text-secondary-900 shadow-sm transition-all duration-200",
@@ -70,16 +74,20 @@ export interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElemen
 }
 
 export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
-  ({ className, label, error, helperText, ...props }, ref) => {
+  ({ className, label, error, helperText, id, ...props }, ref) => {
+    // Generate a unique ID if not provided
+    const textareaId = id || `textarea-${Math.random().toString(36).substr(2, 9)}`;
+
     return (
       <div className="w-full">
         {label && (
-          <label className="block text-sm font-medium text-secondary-700 mb-1">
+          <label htmlFor={textareaId} className="block text-sm font-medium text-secondary-700 mb-1">
             {label}
             {props.required && <span className="text-error-500 ml-1">*</span>}
           </label>
         )}
         <textarea
+          id={textareaId}
           className={cn(
             "block w-full rounded-lg border bg-white px-3 py-2.5 text-secondary-900 shadow-sm transition-all duration-200",
             "placeholder:text-secondary-400",
@@ -116,16 +124,20 @@ export interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
 }
 
 export const Select = forwardRef<HTMLSelectElement, SelectProps>(
-  ({ className, label, error, helperText, options, placeholder, ...props }, ref) => {
+  ({ className, label, error, helperText, options, placeholder, id, ...props }, ref) => {
+    // Generate a unique ID if not provided
+    const selectId = id || `select-${Math.random().toString(36).substr(2, 9)}`;
+
     return (
       <div className="w-full">
         {label && (
-          <label className="block text-sm font-medium text-secondary-700 mb-1">
+          <label htmlFor={selectId} className="block text-sm font-medium text-secondary-700 mb-1">
             {label}
             {props.required && <span className="text-error-500 ml-1">*</span>}
           </label>
         )}
         <select
+          id={selectId}
           className={cn(
             "block w-full rounded-lg border bg-white px-3 py-2.5 text-secondary-900 shadow-sm transition-all duration-200",
             "focus:outline-none focus:ring-2 focus:ring-offset-0",

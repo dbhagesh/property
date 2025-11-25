@@ -52,7 +52,7 @@ export const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
               <h3 className="text-xl font-bold mb-1">Subscribe to Our Newsletter</h3>
-              <p className="text-secondary-300">Get latest property updates and exclusive deals</p>
+              <p className="text-secondary-200">Get latest property updates and exclusive deals</p>
             </div>
             <form className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
               <input
@@ -94,8 +94,9 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                  aria-label="Follow us on Facebook"
                 >
-                  <FaFacebook />
+                  <FaFacebook aria-hidden="true" />
                 </a>
               )}
               {CONTACT_INFO.socialMedia.instagram && (
@@ -104,8 +105,9 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                  aria-label="Follow us on Instagram"
                 >
-                  <FaInstagram />
+                  <FaInstagram aria-hidden="true" />
                 </a>
               )}
               {CONTACT_INFO.socialMedia.twitter && (
@@ -114,8 +116,9 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                  aria-label="Follow us on Twitter"
                 >
-                  <FaTwitter />
+                  <FaTwitter aria-hidden="true" />
                 </a>
               )}
               {CONTACT_INFO.socialMedia.linkedin && (
@@ -124,8 +127,9 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                  aria-label="Follow us on LinkedIn"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin aria-hidden="true" />
                 </a>
               )}
               {CONTACT_INFO.socialMedia.youtube && (
@@ -134,8 +138,9 @@ export const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                  aria-label="Follow us on YouTube"
                 >
-                  <FaYoutube />
+                  <FaYoutube aria-hidden="true" />
                 </a>
               )}
             </div>
@@ -281,7 +286,7 @@ export const Footer = () => {
             <p className="text-secondary-400 text-sm text-center md:text-left">
               © {currentYear} {CONTACT_INFO.companyName}. All rights reserved.
             </p>
-            <p className="text-secondary-500 text-xs text-center md:text-right">
+            <p className="text-secondary-400 text-xs text-center md:text-right">
               Designed & Developed with ❤️ for Haryana Real Estate
             </p>
           </div>

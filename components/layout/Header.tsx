@@ -137,6 +137,9 @@ export const Header = () => {
                       ? "text-primary-600"
                       : "text-secondary-700"
                   )}
+                  aria-label="Browse properties by area"
+                  aria-expanded={isAreaDropdownOpen}
+                  aria-haspopup="true"
                 >
                   Deals in
                   <FaChevronDown
@@ -144,6 +147,7 @@ export const Header = () => {
                       "text-xs transition-transform",
                       isAreaDropdownOpen && "rotate-180"
                     )}
+                    aria-hidden="true"
                   />
                 </button>
 
@@ -206,11 +210,13 @@ export const Header = () => {
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="lg:hidden p-2 text-secondary-700 hover:text-primary-600 transition-colors"
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMobileMenuOpen}
             >
               {isMobileMenuOpen ? (
-                <FaTimes className="text-2xl" />
+                <FaTimes className="text-2xl" aria-hidden="true" />
               ) : (
-                <FaBars className="text-2xl" />
+                <FaBars className="text-2xl" aria-hidden="true" />
               )}
             </button>
           </div>
