@@ -9,22 +9,17 @@ interface PropertyPageProps {
   };
 }
 
-// Generate static params for all properties
-export async function generateStaticParams() {
+export function generateStaticParams() {
   try {
-    const properties = getAllProperties();
-    return properties
-      .filter(p => p.isActive)
-      .map((property) => ({
-        slug: property.slug,
-      }));
+    // For now, return empty array to allow static export
+    // In production, you would fetch all property slugs here
+    return [];
   } catch (error) {
     console.error('Error generating static params:', error);
     return [];
   }
 }
 
-// Generate metadata for each property
 export function generateMetadata({ params }: PropertyPageProps): Metadata {
   try {
     const property = getPropertyBySlug(params.slug);

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Suspense } from "react";
 import PropertiesClient from "./PropertiesClient";
 
 export const metadata: Metadata = {
@@ -8,5 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default function PropertiesPage() {
-  return <PropertiesClient />;
+  return (
+    <Suspense fallback={<div className="container mx-auto px-4 py-8">Loading properties...</div>}>
+      <PropertiesClient />
+    </Suspense>
+  );
 }
