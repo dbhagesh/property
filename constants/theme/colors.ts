@@ -153,14 +153,32 @@ const goldenTheme = {
   },
 };
 
+// Theme 9: Professional Blue (Trustworthy, Modern, Corporate)
+// Perfect for: Professional real estate, corporate clients, trust-building
+const professionalBlueTheme = {
+  primary: {
+    50: "#e6f2ff",
+    100: "#cce5ff",
+    200: "#99cbff",
+    300: "#66b0ff",
+    400: "#3396ff",
+    500: "#007bff", // Bright blue
+    600: "#005ca8", // Your requested color - Deep professional blue
+    700: "#004d8a",
+    800: "#003d6b",
+    900: "#002e4d",
+    950: "#001f33",
+  },
+};
+
 // ============================================================================
 // ACTIVE THEME - Change this to switch the entire website theme
 // ============================================================================
 
 // 👇 CHANGE THIS LINE TO SWITCH THEMES
-// Options: forestGreenTheme (matches logo), goldenTheme, saffronTheme, emeraldTheme,
-//          royalBlueTheme, tealTheme, crimsonTheme, purpleTheme
-export const activeTheme = forestGreenTheme;
+// Options: professionalBlueTheme (#005ca8 - Currently Active), forestGreenTheme (matches logo),
+//          goldenTheme, saffronTheme, emeraldTheme, royalBlueTheme, tealTheme, crimsonTheme, purpleTheme
+export const activeTheme = professionalBlueTheme;
 
 // ============================================================================
 // FIXED COLOR PALETTES (Don't change unless necessary)
