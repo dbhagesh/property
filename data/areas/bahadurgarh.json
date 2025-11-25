@@ -111,10 +111,34 @@
     "waterSupply": "24/7 Municipal",
     "reraApproved": true
   },
-  "contact": {
-    "localOffice": "Shop no. 1 - Manodev School, Pipli Kharkhoda, Delhi Road",
-    "phone": "+91-9899570270",
-    "whatsapp": "+91-7876748284",
-    "email": "mahadevrealestate99@gmail.com"
+  "avgPricePerSqFt": 4800,
+  "totalProperties": 18,
+  "coordinates": {
+    "lat": 28.6935,
+    "lng": 76.9380
+  },
+  "overview": "Bahadurgarh, known as the 'Gateway to Haryana', is strategically positioned just 25 km from Delhi with excellent metro connectivity via the Green Line. This rapidly developing city offers a perfect blend of industrial growth and residential development. With HSIIDC-approved industrial estates, modern infrastructure, and affordable property prices, Bahadurgarh has become a preferred choice for both homebuyers and investors. The city's proximity to Delhi, combined with better air quality and lower property prices, makes it an attractive alternative to Delhi NCR.",
+  "popularFor": [
+    "Metro Connectivity",
+    "Residential Plots",
+    "Industrial Estates",
+    "Affordable Housing"
+  ],
+  "nearbyLandmarks": [
+    "Bahadurgarh Metro Station",
+    "Delhi Border",
+    "HSIIDC Industrial Estate",
+    "Bahadurgarh City Center"
+  ],
+  "images": {
+    "featured": "/images/areas/bahadurgarh.jpg",
+    "gallery": [
+      "/images/areas/bahadurgarh.jpg"
+    ]
+  },
+  "seo": {
+    "metaTitle": "Bahadurgarh Plots for Sale | Residential & Industrial Land Near Delhi Metro",
+    "metaDescription": "Buy plots in Bahadurgarh with metro connectivity. Residential plots from ₹35 lakhs, industrial land available. RERA approved properties. Contact Mahadev Real Estate!",
+    "keywords": ["Bahadurgarh plots", "Bahadurgarh metro", "Residential plots Haryana", "Industrial land Bahadurgarh", "Delhi metro property"]
   }
 }

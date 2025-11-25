@@ -109,10 +109,34 @@
     "waterSupply": "24/7 Municipal",
     "reraApproved": true
   },
-  "contact": {
-    "localOffice": "Shop no. 1 - Manodev School, Pipli Kharkhoda, Delhi Road",
-    "phone": "+91-9899570270",
-    "whatsapp": "+91-7876748284",
-    "email": "mahadevrealestate99@gmail.com"
+  "avgPricePerSqFt": 5500,
+  "totalProperties": 25,
+  "coordinates": {
+    "lat": 29.1765,
+    "lng": 76.9137
+  },
+  "overview": "IMT Kharkhoda stands as a premier industrial destination in North India, offering world-class infrastructure and strategic connectivity. This HSIIDC-developed township has emerged as the go-to location for industries seeking proximity to Delhi NCR with affordable land prices. The area features wide roads, 24/7 power supply, and comprehensive security systems, making it ideal for manufacturing, warehousing, and logistics operations.",
+  "popularFor": [
+    "Industrial Plots",
+    "Manufacturing Units",
+    "Warehousing",
+    "Logistics Hubs"
+  ],
+  "nearbyLandmarks": [
+    "Kundli Industrial Area",
+    "Sonipat City",
+    "Delhi Border",
+    "KMP Expressway"
+  ],
+  "images": {
+    "featured": "/images/areas/imt-kharkhoda.jpg",
+    "gallery": [
+      "/images/areas/imt-kharkhoda.jpg"
+    ]
+  },
+  "seo": {
+    "metaTitle": "IMT Kharkhoda Industrial Plots | HSIIDC Approved Land for Sale",
+    "metaDescription": "Invest in IMT Kharkhoda industrial plots with excellent connectivity to Delhi. HSIIDC approved land, 24/7 power supply, starting from ₹45 lakhs. Contact Mahadev Real Estate today!",
+    "keywords": ["IMT Kharkhoda", "Industrial plots Kharkhoda", "HSIIDC plots", "Industrial land Haryana", "Manufacturing land Delhi NCR"]
   }
 }

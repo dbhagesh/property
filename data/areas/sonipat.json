@@ -126,10 +126,34 @@
       ]
     }
   },
-  "contact": {
-    "localOffice": "Shop no. 1 - Manodev School, Pipli Kharkhoda, Delhi Road",
-    "phone": "+91-9899570270",
-    "whatsapp": "+91-7876748284",
-    "email": "mahadevrealestate99@gmail.com"
+  "avgPricePerSqFt": 3200,
+  "totalProperties": 22,
+  "coordinates": {
+    "lat": 28.9931,
+    "lng": 77.0151
+  },
+  "overview": "Sonipat, a thriving district headquarters on NH-44, offers exceptional value for homebuyers and investors. The city is renowned for its DDJAY (Deen Dayal Jan Awas Yojana) plots, making affordable housing accessible to all. With multiple universities, growing industries, and excellent connectivity to Delhi, Sonipat presents diverse investment opportunities. From budget-friendly DDJAY plots to premium agricultural land and industrial estates, the city caters to every investor's needs. The upcoming metro extension and continuous infrastructure development promise strong appreciation potential.",
+  "popularFor": [
+    "DDJAY Plots",
+    "Educational Hub",
+    "Agricultural Land",
+    "Affordable Housing"
+  ],
+  "nearbyLandmarks": [
+    "Sonipat Junction",
+    "O.P. Jindal University",
+    "Ashoka University",
+    "Sonipat City Center"
+  ],
+  "images": {
+    "featured": "/images/areas/sonipat.jpg",
+    "gallery": [
+      "/images/areas/sonipat.jpg"
+    ]
+  },
+  "seo": {
+    "metaTitle": "Sonipat DDJAY Plots & Land for Sale | Affordable Housing Plots Haryana",
+    "metaDescription": "Buy DDJAY plots in Sonipat from ₹15 lakhs. Government-approved affordable housing, agricultural land, and industrial plots available. Contact Mahadev Real Estate!",
+    "keywords": ["Sonipat DDJAY plots", "DDJAY Sonipat", "Affordable plots Haryana", "Agricultural land Sonipat", "Deen Dayal Awas Yojana"]
   }
 }

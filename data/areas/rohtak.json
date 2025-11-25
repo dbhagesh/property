@@ -147,10 +147,34 @@
       "Government housing schemes"
     ]
   },
-  "contact": {
-    "localOffice": "Shop no. 1 - Manodev School, Pipli Kharkhoda, Delhi Road",
-    "phone": "+91-9899570270",
-    "whatsapp": "+91-7876748284",
-    "email": "mahadevrealestate99@gmail.com"
+  "avgPricePerSqFt": 5800,
+  "totalProperties": 20,
+  "coordinates": {
+    "lat": 28.8955,
+    "lng": 76.6066
+  },
+  "overview": "Rohtak, one of Haryana's most prestigious districts, has emerged as a premier real estate destination with 13% year-on-year growth. Home to prestigious institutions like IIM Rohtak and PGIMS Hospital, the city attracts students, professionals, and healthcare seekers from across North India. The strategic location on NH-9 with KMP Expressway connectivity provides seamless access to entire NCR. With government focus on urban expansion, world-class infrastructure, and strong rental yields, Rohtak offers unmatched investment potential in Haryana. The city's sports culture, educational excellence, and rapid development make it ideal for both end-users and investors.",
+  "popularFor": [
+    "IIM Rohtak",
+    "PGIMS Hospital",
+    "Sports Culture",
+    "Educational Hub"
+  ],
+  "nearbyLandmarks": [
+    "IIM Rohtak",
+    "PGIMS Hospital",
+    "Rohtak Junction",
+    "IMT Rohtak"
+  ],
+  "images": {
+    "featured": "/images/areas/rohtak.jpg",
+    "gallery": [
+      "/images/areas/rohtak.jpg"
+    ]
+  },
+  "seo": {
+    "metaTitle": "Rohtak Property for Sale | Residential & Industrial Plots Near IIM Rohtak",
+    "metaDescription": "Invest in Rohtak real estate with 13% YoY growth. Residential plots from ₹41 lakhs, apartments, IMT industrial land. Near IIM Rohtak & PGIMS. Contact now!",
+    "keywords": ["Rohtak property", "IIM Rohtak property", "Rohtak plots", "IMT Rohtak industrial land", "PGIMS Rohtak real estate"]
   }
 }
