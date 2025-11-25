@@ -88,46 +88,56 @@ export const Footer = () => {
               and {CONTACT_INFO.statistics.happyCustomers}+ happy customers.
             </p>
             <div className="flex gap-3">
-              <a
-                href={CONTACT_INFO.socialMedia.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <FaFacebook />
-              </a>
-              <a
-                href={CONTACT_INFO.socialMedia.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <FaInstagram />
-              </a>
-              <a
-                href={CONTACT_INFO.socialMedia.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href={CONTACT_INFO.socialMedia.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <FaLinkedin />
-              </a>
-              <a
-                href={CONTACT_INFO.socialMedia.youtube}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
-              >
-                <FaYoutube />
-              </a>
+              {CONTACT_INFO.socialMedia.facebook && (
+                <a
+                  href={CONTACT_INFO.socialMedia.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <FaFacebook />
+                </a>
+              )}
+              {CONTACT_INFO.socialMedia.instagram && (
+                <a
+                  href={CONTACT_INFO.socialMedia.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <FaInstagram />
+                </a>
+              )}
+              {CONTACT_INFO.socialMedia.twitter && (
+                <a
+                  href={CONTACT_INFO.socialMedia.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <FaTwitter />
+                </a>
+              )}
+              {CONTACT_INFO.socialMedia.linkedin && (
+                <a
+                  href={CONTACT_INFO.socialMedia.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <FaLinkedin />
+                </a>
+              )}
+              {CONTACT_INFO.socialMedia.youtube && (
+                <a
+                  href={CONTACT_INFO.socialMedia.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
+                >
+                  <FaYoutube />
+                </a>
+              )}
             </div>
           </div>
 

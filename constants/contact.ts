@@ -31,11 +31,11 @@ export const CONTACT_INFO = {
 
   // Social Media Links
   socialMedia: {
-    facebook: "https://facebook.com/mahadevrealestate",
-    instagram: "https://instagram.com/mahadevrealestate",
-    twitter: "https://twitter.com/mahadevrealestate",
-    linkedin: "https://linkedin.com/company/mahadevrealestate",
-    youtube: "https://youtube.com/@mahadevrealestate",
+    facebook: "",
+    instagram: "https://www.instagram.com/mahadev.realestate_",
+    twitter: "",
+    linkedin: "",
+    youtube: "",
   },
 
   // Business Hours
