@@ -47,12 +47,12 @@ export const Footer = () => {
   return (
     <footer className="bg-secondary-900 text-white">
       {/* Newsletter Section */}
-      <div className="bg-primary-600">
+      <div className="bg-secondary-800 border-b border-secondary-700">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
               <h3 className="text-xl font-bold mb-1">Subscribe to Our Newsletter</h3>
-              <p className="text-primary-100">Get latest property updates and exclusive deals</p>
+              <p className="text-secondary-300">Get latest property updates and exclusive deals</p>
             </div>
             <form className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
               <input
@@ -92,7 +92,7 @@ export const Footer = () => {
                 href={CONTACT_INFO.socialMedia.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-primary-600 rounded-lg flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <FaFacebook />
               </a>
@@ -100,7 +100,7 @@ export const Footer = () => {
                 href={CONTACT_INFO.socialMedia.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-primary-600 rounded-lg flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <FaInstagram />
               </a>
@@ -108,7 +108,7 @@ export const Footer = () => {
                 href={CONTACT_INFO.socialMedia.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-primary-600 rounded-lg flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <FaTwitter />
               </a>
@@ -116,7 +116,7 @@ export const Footer = () => {
                 href={CONTACT_INFO.socialMedia.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-primary-600 rounded-lg flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <FaLinkedin />
               </a>
@@ -124,7 +124,7 @@ export const Footer = () => {
                 href={CONTACT_INFO.socialMedia.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-secondary-800 hover:bg-primary-600 rounded-lg flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-secondary-800 hover:bg-accent-600 rounded-lg flex items-center justify-center transition-colors"
               >
                 <FaYoutube />
               </a>
@@ -139,9 +139,9 @@ export const Footer = () => {
                 <li key={area.slug}>
                   <Link
                     href={`/deals/${area.slug}`}
-                    className="text-secondary-300 hover:text-primary-400 transition-colors text-sm flex items-center gap-2 group"
+                    className="text-secondary-300 hover:text-accent-400 transition-colors text-sm flex items-center gap-2 group"
                   >
-                    <FaArrowRight className="text-xs text-secondary-500 group-hover:text-primary-400 transition-colors" />
+                    <FaArrowRight className="text-xs text-secondary-500 group-hover:text-accent-400 transition-colors" />
                     {area.name} ({area.propertyCount})
                   </Link>
                 </li>
@@ -149,7 +149,7 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/deals"
-                  className="text-primary-400 hover:text-primary-300 transition-colors text-sm font-semibold"
+                  className="text-accent-400 hover:text-accent-300 transition-colors text-sm font-semibold"
                 >
                   View All Areas →
                 </Link>
@@ -164,7 +164,7 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/"
-                  className="text-secondary-300 hover:text-primary-400 transition-colors text-sm"
+                  className="text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
                   Home
                 </Link>
@@ -172,7 +172,7 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/about"
-                  className="text-secondary-300 hover:text-primary-400 transition-colors text-sm"
+                  className="text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
                   About Us
                 </Link>
@@ -180,7 +180,7 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/contact"
-                  className="text-secondary-300 hover:text-primary-400 transition-colors text-sm"
+                  className="text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
                   Contact Us
                 </Link>
@@ -188,7 +188,7 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/privacy-policy"
-                  className="text-secondary-300 hover:text-primary-400 transition-colors text-sm"
+                  className="text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
                   Privacy Policy
                 </Link>
@@ -196,7 +196,7 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/terms"
-                  className="text-secondary-300 hover:text-primary-400 transition-colors text-sm"
+                  className="text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
                   Terms & Conditions
                 </Link>
@@ -204,7 +204,7 @@ export const Footer = () => {
               <li>
                 <Link
                   href="/sitemap.xml"
-                  className="text-secondary-300 hover:text-primary-400 transition-colors text-sm"
+                  className="text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
                   Sitemap
                 </Link>
@@ -217,7 +217,7 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <FaMapMarkerAlt className="text-primary-400 mt-1 flex-shrink-0" />
+                <FaMapMarkerAlt className="text-accent-400 mt-1 flex-shrink-0" />
                 <span className="text-secondary-300 text-sm">
                   {getFullAddress()}
                 </span>
@@ -225,23 +225,23 @@ export const Footer = () => {
               <li>
                 <a
                   href={`tel:${CONTACT_INFO.primaryPhone}`}
-                  className="flex items-center gap-3 text-secondary-300 hover:text-primary-400 transition-colors text-sm"
+                  className="flex items-center gap-3 text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
-                  <FaPhone className="text-primary-400 flex-shrink-0" />
+                  <FaPhone className="text-accent-400 flex-shrink-0" />
                   {CONTACT_INFO.primaryPhone}
                 </a>
               </li>
               <li>
                 <a
                   href={`mailto:${CONTACT_INFO.primaryEmail}`}
-                  className="flex items-center gap-3 text-secondary-300 hover:text-primary-400 transition-colors text-sm"
+                  className="flex items-center gap-3 text-secondary-300 hover:text-accent-400 transition-colors text-sm"
                 >
-                  <FaEnvelope className="text-primary-400 flex-shrink-0" />
+                  <FaEnvelope className="text-accent-400 flex-shrink-0" />
                   {CONTACT_INFO.primaryEmail}
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <FaClock className="text-primary-400 mt-1 flex-shrink-0" />
+                <FaClock className="text-accent-400 mt-1 flex-shrink-0" />
                 <div className="text-secondary-300 text-sm">
                   <p>Mon-Sat: {CONTACT_INFO.businessHours.weekdays}</p>
                   <p>Sunday: {CONTACT_INFO.businessHours.sunday}</p>

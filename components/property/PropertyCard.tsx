@@ -71,7 +71,7 @@ export default function PropertyCard({ property, viewMode = 'grid' }: PropertyCa
 
           <div className="p-6 flex-1">
             <div className="flex justify-between items-start mb-2">
-              <h3 className="text-xl font-bold text-secondary-900 group-hover:text-primary-600 transition-colors line-clamp-2">
+              <h3 className="text-xl font-bold text-secondary-900 group-hover:text-accent-700 transition-colors line-clamp-2">
                 {property.title}
               </h3>
               <p className="text-2xl font-bold text-primary-600 whitespace-nowrap ml-4">
@@ -91,18 +91,18 @@ export default function PropertyCard({ property, viewMode = 'grid' }: PropertyCa
             <div className="flex items-center gap-6 text-secondary-600">
               {property.bedrooms && (
                 <div className="flex items-center gap-2">
-                  <FaBed className="text-primary-600" />
+                  <FaBed className="text-secondary-500" />
                   <span>{property.bedrooms} Beds</span>
                 </div>
               )}
               {property.bathrooms && (
                 <div className="flex items-center gap-2">
-                  <FaBath className="text-primary-600" />
+                  <FaBath className="text-secondary-500" />
                   <span>{property.bathrooms} Baths</span>
                 </div>
               )}
               <div className="flex items-center gap-2">
-                <FaRuler className="text-primary-600" />
+                <FaRuler className="text-secondary-500" />
                 <span>{property.areaSize.toLocaleString()} sq ft</span>
               </div>
               <div className="flex items-center gap-2 ml-auto">
@@ -141,7 +141,7 @@ export default function PropertyCard({ property, viewMode = 'grid' }: PropertyCa
         </div>
 
         <div className="p-5 flex-1 flex flex-col">
-          <h3 className="text-lg font-bold text-secondary-900 mb-2 group-hover:text-primary-600 transition-colors line-clamp-2">
+          <h3 className="text-lg font-bold text-secondary-900 mb-2 group-hover:text-accent-700 transition-colors line-clamp-2">
             {property.title}
           </h3>
 
@@ -158,18 +158,18 @@ export default function PropertyCard({ property, viewMode = 'grid' }: PropertyCa
             <div className="flex items-center gap-4 text-sm text-secondary-600">
               {property.bedrooms && (
                 <div className="flex items-center gap-1">
-                  <FaBed className="text-primary-600" />
+                  <FaBed className="text-secondary-500" />
                   <span>{property.bedrooms}</span>
                 </div>
               )}
               {property.bathrooms && (
                 <div className="flex items-center gap-1">
-                  <FaBath className="text-primary-600" />
+                  <FaBath className="text-secondary-500" />
                   <span>{property.bathrooms}</span>
                 </div>
               )}
               <div className="flex items-center gap-1">
-                <FaRuler className="text-primary-600" />
+                <FaRuler className="text-secondary-500" />
                 <span>{property.areaSize.toLocaleString()}</span>
               </div>
             </div>
@@ -184,7 +184,7 @@ export default function PropertyCard({ property, viewMode = 'grid' }: PropertyCa
               <FaEye />
               <span>{property.viewCount} views</span>
             </div>
-            <span className="text-primary-600 font-semibold group-hover:underline">
+            <span className="text-accent-600 font-semibold group-hover:underline">
               View Details →
             </span>
           </div>
