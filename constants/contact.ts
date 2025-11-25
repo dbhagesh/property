@@ -22,7 +22,7 @@ export const CONTACT_INFO = {
     state: "Haryana",
     pincode: "131402",
     country: "India",
-    googleMapsUrl: "https://goo.gl/maps/example", // Replace with actual URL
+    googleMapsUrl: "https://maps.app.goo.gl/Wgm8KbeaEapkdbB26",
     coordinates: {
       latitude: 29.1765,
       longitude: 76.9137
@@ -63,7 +63,7 @@ export const CONTACT_INFO = {
     callSecondary: `tel:+91-7876748284`,
     whatsapp: `https://wa.me/919253648284`,
     email: `mailto:mahadevrealestate99@gmail.com`,
-    directions: "https://goo.gl/maps/example", // Replace with actual URL
+    directions: "https://maps.app.goo.gl/Wgm8KbeaEapkdbB26",
   },
 
   // Team Members

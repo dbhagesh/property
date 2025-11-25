@@ -13,7 +13,8 @@ import {
   FaUsers,
   FaAward,
   FaPhoneAlt,
-  FaWhatsapp
+  FaWhatsapp,
+  FaMapMarkerAlt
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -139,6 +140,14 @@ export const HeroSection = () => {
                   onClick={() => window.open(`tel:${CONTACT_INFO.primaryPhone}`, "_self")}
                 >
                   {content.ctaButtons.call}
+                </Button>
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  leftIcon={<FaMapMarkerAlt />}
+                  onClick={() => window.open(CONTACT_INFO.address.googleMapsUrl, "_blank")}
+                >
+                  Get Directions
                 </Button>
               </div>
 

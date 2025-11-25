@@ -290,6 +290,25 @@ export default function ContactForm() {
                   </div>
                 </div>
 
+                {/* Get Directions */}
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+                    <FaMapMarkerAlt className="text-primary-600 text-xl" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-gray-900 mb-2">Get Directions</h3>
+                    <a
+                      href={CONTACT_INFO.address.googleMapsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+                    >
+                      <FaMapMarkerAlt className="mr-2" />
+                      Open in Google Maps
+                    </a>
+                  </div>
+                </div>
+
                 {/* Social Media */}
                 <div className="pt-6 border-t border-gray-200">
                   <h3 className="font-semibold text-gray-900 mb-4">Follow Us</h3>

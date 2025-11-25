@@ -73,10 +73,15 @@ export const Header = () => {
                   {CONTACT_INFO.primaryEmail}
                 </a>
               </div>
-              <div className="flex items-center gap-2">
+              <a
+                href={CONTACT_INFO.address.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer"
+              >
                 <FaMapMarkerAlt className="text-xs" />
                 <span>{CONTACT_INFO.address.city}, {CONTACT_INFO.address.state}</span>
-              </div>
+              </a>
             </div>
           </div>
         </div>
